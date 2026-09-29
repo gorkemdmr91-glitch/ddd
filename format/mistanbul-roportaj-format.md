@@ -50,24 +50,51 @@ Tüm kurgu yükü **altyazıda**. Görüntü ham.
 
 | Öğe | Konum |
 |---|---|
-| Konuşmacı etiketi (chip) | y ≈ 775–802 px (%60.5–62.7) |
-| Altyazı satır 1 | y ≈ 822–856 px (%64.2–66.9) |
-| Altyazı satır 2 | y ≈ 883–902 px (%69.0–70.5) |
-| Satır aralığı | 61 px (≈1.45×) |
-| Yatay hizalama | Metin bloğu **ortalı**; chip bloğun **sol kenarına** hizalı |
+| Konuşmacı etiketi (chip) | y 775–802 px, x 45–215 (%60.5–62.7) |
+| Altyazı satır 1 | y 822–849 px (%64.2–66.3) |
+| Altyazı satır 2 | y 883–910 px (%69.0–71.1) |
+| Satır aralığı (üst-üst) | 61 px @720 = **92 px @1080** |
+| Yatay hizalama | Metin bloğu **ortalı**; chip metinden biraz daha solda (x45 vs x63) |
 | Maksimum satır | 2 |
 
 1080 × 1920'ye çevirmek için tüm px değerlerini **×1.5** yap.
 
-### Tipografi
+### Blok YUKARIDAN sabitlenir — kritik
 
-- Font: ağır geometrik sans — **Montserrat ExtraBold** (veya Poppins Bold /
-  Gilroy ExtraBold). Türkçe karakter desteği şart: ğ ı İ ş ç ö ü
-- Punto: ≈42 px @720w → **≈63 px @1080w**
+Ölçüm: tek satırlık altyazı y823–849, iki satırlık altyazının ilk satırı
+y822–849. **İlk satır her zaman aynı yerde**, blok aşağı doğru büyür.
+
+Altyazıyı alttan sabitlersen tek satırlık metinler iki satırlığın ikinci
+satırının yerine oturur ve altyazı sürekli zıplar. Formatın en kolay
+kaçırılan detayı bu.
+
+ASS'te: `Alignment 8` (üst-orta) + her satır kendi Dialogue'u, MarginV =
+`1223 + satır_no × 92`.
+
+### Tipografi — ölçümle doğrulandı
+
+Referanstan ölçülen üç bağımsız değer:
+
+| Ölçüm | Değer @1080 |
+|---|---|
+| Büyük harf (cap) yüksekliği | 40.5 px |
+| Gövde (stem) kalınlığı | 9 px |
+| "Her gün üç kişiye ücretsiz tadım" satır genişliği | 890 px |
+
+Üçünü birden tutturan font: **Inter ExtraBold, 56 punto** (cap 41,
+gövde 10, satır 885 — sapma %1'in altında).
+
+> **Montserrat değil.** İlk analizde Montserrat sanılmıştı; aynı cap
+> yüksekliğinde satır genişliği %12–16 şaşıyor, yani Montserrat belirgin
+> şekilde daha geniş. Poppins de değil (tek katlı 'a', referansta çift katlı).
+
 - Renk: beyaz `#FFFFFF`
-- Arka plan: siyah kutu, ~%75 opaklık, **yuvarlatılmış köşe** (~8 px),
-  her satırın kendi kutusu var (blok değil, satır bazlı)
-- Kutu içi padding: yatay ~14 px, dikey ~8 px @720w
+- Arka plan: siyah `#151215`, ~%75 opaklık (ASS alpha `40`),
+  **yuvarlatılmış köşe**, her satırın kendi kutusu var
+- Kutu dolgusu: ASS `Outline 13`. Referansta yatay dolgu dikeyden fazla;
+  ASS simetrik dolgu verdiği için dikey eşleşmesi öncelendi.
+- Chip: Inter ExtraBold 30, `Outline 5`, yatay dolgu `\h` ile genişletilir
+  (9 adet her iki yana) — aynı asimetri sorunu
 
 ### Kelime Vurgusu (karaoke)
 

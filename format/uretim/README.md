@@ -6,8 +6,11 @@ Bir sonraki videoda bu hattı aynen tekrar çalıştır. Tüm adımlar test edil
 
 ```bash
 pip install yt-dlp gdown faster-whisper pillow numpy
-apt-get update && apt-get install -y ffmpeg fonts-montserrat
+apt-get update && apt-get install -y ffmpeg fonts-inter
 ```
+
+Font **Inter ExtraBold** olmalı — referans videodan ölçülerek belirlendi.
+Montserrat kullanma, aynı cap yüksekliğinde %12–16 daha geniş çıkıyor.
 
 ## Adımlar
 
@@ -83,10 +86,16 @@ aynı tut. Ses ölçümü + normalizasyon (−14 LUFS) otomatik.
 
 | Sabit | Varsayılan | Etki |
 |---|---|---|
-| `SIZE` | 63 | Altyazı puntosu (1080 genişlik için) |
-| `MAX_LINE_PX` | 880 | Satır genişlik sınırı |
+| `SIZE` | 56 | Altyazı puntosu @1080 — referanstan ölçüldü, değiştirme |
+| `SATIR1_V` | 1223 | İlk satırın üstten konumu @1080 |
+| `SATIR_ADIM` | 92 | Satır aralığı @1080 |
+| `MAX_LINE_PX` | 900 | Satır genişlik sınırı |
 | `MAX_WORDS` | 7 | Ekran başına kelime üst sınırı |
 | `MAX_GAP` | 0.65 | Bu kadar sessizlikten sonra yeni ekran |
+
+`SATIR1_V` / `SATIR_ADIM` blok konumunu belirler. Altyazı üstten
+sabitlenir (stil `Alignment 8`), her satır ayrı Dialogue olarak yazılır.
+Alttan sabitleme formatı bozar — tek satırlık altyazılar aşağı kayar.
 
 ## Bilinen sınırlar
 

@@ -8,6 +8,7 @@ DUZELTME = [
     (8.63,  "görkem",  "Görkem"),
     (59.41, "görkem",  "Görkem"),
     (93.35, "Erdoğan", "Her zaman"),
+    (82.29, "gördüğünüzden", "gördüğümüzden"),
 ]
 
 segs = json.load(open("transkript.json", encoding="utf-8"))

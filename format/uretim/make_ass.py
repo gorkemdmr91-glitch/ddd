@@ -7,13 +7,20 @@ import json, sys
 from PIL import ImageFont
 
 W, H = 1080, 1920
-FONT = "/usr/share/fonts/opentype/montserrat/Montserrat-ExtraBold.otf"
-SIZE = 63
-CHIP_SIZE = 33
-MAX_LINE_PX = 880          # kenar boşlukları düşülmüş kullanılabilir genişlik
+FONT = "/usr/share/fonts/opentype/inter/Inter-ExtraBold.otf"
+SIZE = 56
+CHIP_SIZE = 30
+CHIP_PAD = r"\h\h\h\h\h\h\h\h\h"   # chip yatay dolgusu
+MAX_LINE_PX = 900          # referans satır genişliği ~890px
 MAX_WORDS = 7              # ekran başına kelime üst sınırı
 MAX_GAP = 0.65             # bu kadar sessizlikten sonra yeni ekran
 MIN_CHUNK_DUR = 0.45
+
+# Referansta altyazı bloğu YUKARIDAN sabit: ilk satır kaç satır olursa olsun
+# hep aynı yerde duruyor, blok aşağı doğru büyüyor. Bu yüzden her satır
+# kendi Dialogue'u olarak, kendi MarginV'siyle yazılıyor (stil: Alignment 8).
+SATIR1_V = 1223            # ilk satırın üst kenar payı (ölçümle ayarlandı)
+SATIR_ADIM = 92            # satır aralığı @1080 (referans: 61px @720)
 
 SPEAKERS = {
     "host":    {"style": "ChipHost",    "hi": "&H0EAFF5&", "label": "Volkan Usta"},
@@ -96,7 +103,8 @@ def wrap(words):
 
 
 def render(words, hi_index, lines):
-    """Bir ekranın metnini üret; hi_index'teki kelime renkli."""
+    """Ekranın her satırını ayrı üret; hi_index'teki kelime renkli.
+    Dönen: satır metinleri listesi (her biri kendi Dialogue'u olacak)."""
     hi = SPEAKERS[words[0]["_who"]]["hi"]
     out = []
     for ln in lines:
@@ -105,7 +113,7 @@ def render(words, hi_index, lines):
             w = words[i]["w"]
             parts.append(f"{{\\c{hi}}}{w}{{\\c&HFFFFFF&}}" if i == hi_index else w)
         out.append(" ".join(parts))
-    return "\\N".join(out)
+    return out
 
 
 def main(tr_path, sp_path, out_path):
@@ -127,15 +135,18 @@ def main(tr_path, sp_path, out_path):
         lines = wrap(ch)
         start, end = ch[0]["s"], max(ch[-1]["e"], ch[0]["s"] + MIN_CHUNK_DUR)
         sp = SPEAKERS[ch[0]["_who"]]
-        ev.append(f"Dialogue: 0,{ts(start)},{ts(end)},{sp['style']},,0,0,0,, {sp['label']} ")
+        # \h = ASS sert boşluk; chip'in yatay dolgusunu büyütmek için
+        etiket = CHIP_PAD + sp["label"] + CHIP_PAD
+        ev.append(f"Dialogue: 0,{ts(start)},{ts(end)},{sp['style']},,0,0,0,,{etiket}")
         for i, w in enumerate(ch):
             a = w["s"] if i else start
             b = ch[i + 1]["s"] if i + 1 < len(ch) else end
             if b - a < 0.05:
                 b = a + 0.05
-            ev.append(
-                f"Dialogue: 1,{ts(a)},{ts(b)},Altyazi,,0,0,0,,{render(ch, i, lines)}"
-            )
+            # her satır kendi Dialogue'u: MarginV ile yukarıdan sabitlenir
+            for j, satir in enumerate(render(ch, i, lines)):
+                mv = SATIR1_V + j * SATIR_ADIM
+                ev.append(f"Dialogue: 1,{ts(a)},{ts(b)},Altyazi,,0,0,{mv},,{satir}")
 
     open(out_path, "w", encoding="utf-8").write(header + "\n".join(ev) + "\n")
     print(f"{out_path}: {len(words)} kelime, {len(ev)} dialogue satırı")

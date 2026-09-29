@@ -46,15 +46,34 @@ Format referansı: `format/mistanbul-roportaj-format.md`
 | 5.55 | "3" | "üç" | Referans formatta rakamlar yazıyla |
 | 7.53 / 8.63 / 59.41 | "gizem" / "görkem" | "Gizem" / "Görkem" | Özel isim |
 | 72.15 | "300" + "-350" | "300-350" | Tokenizasyon hatası |
+| 82.29 | "gördüğünüzden" | "gördüğümüzden" | ASR hatası (kullanıcı doğruladı) |
 | 93.35 | "Erdoğan için de bekliyorum" | "Her zaman için de bekliyorum" | Açık ASR hatası; referans videoda da "Her zaman için de beklerim" geçiyor |
+
+## Altyazı stili — v2'de düzeltildi
+
+İlk sürümde altyazı referansa oturmuyordu. Yeniden ölçüldü:
+
+| Sorun | İlk sürüm | Düzeltilmiş |
+|---|---|---|
+| Font ailesi | Montserrat ExtraBold (yanlış) | **Inter ExtraBold** |
+| Punto | 63 (%12 büyük) | **56** |
+| Blok sabitleme | Alttan (tek satırlık altyazılar zıplıyordu) | **Üstten** |
+| Satır aralığı | Font varsayılanı (~68px) | **92 px @1080** |
+| Kutu dolgusu | Outline 11 | **Outline 13** |
+| Chip | 33 punto, dar | **30 punto, `\h` ile genişletilmiş** |
+
+En kritik olan blok sabitlemesi: referansta ilk satır kaç satır olursa olsun
+hep y822'de (@720). Alttan sabitlersen tek satırlık altyazı iki satırlığın
+ikinci satırının yerine düşüyor ve altyazı sürekli yer değiştiriyor.
+
+Font tespiti üç bağımsız ölçümle yapıldı (cap yüksekliği 40.5px, gövde
+kalınlığı 9px, bilinen bir cümlenin satır genişliği 890px @1080).
+Montserrat aynı cap yüksekliğinde %12–16 geniş kalıyor; Inter ExtraBold 56
+üçünü de %1 sapmayla tutturuyor.
 
 ## Doğrulaman gerekenler
 
-1. **82.29 sn — "Bu arada gördüğünüzden beri iki aydır döner yemediğimizi de söyleyelim."**
-   "gördüğünüzden" muhtemelen "görüştüğümüzden". Whisper güveni yüksek çıktığı için
-   dokunmadım. Sen dinle, yanlışsa `altyazi.ass` içinde tek kelime değişiyor.
-
-2. **Kapanış 90–96 sn arası konuşmacı atamaları.**
+1. **Kapanış 90–96 sn arası konuşmacı atamaları.**
    Bu bölümde teşekkürler üst üste biniyor ve önünden iki kişi geçtiği için
    görüntüden kimin konuştuğunu doğrulayamadım. Şu an:
    - "Çok sağ olun. Ayağınıza sağlık." → Volkan Usta
@@ -66,7 +85,7 @@ Format referansı: `format/mistanbul-roportaj-format.md`
    Yanlışsa `konusmacilar.json` içindeki aralıkları düzeltip `make_ass.py`
    tekrar çalıştırılır.
 
-3. **Hook'ta "ücretsiz" yok.** Referans videoda "Her gün üç kişiye **ücretsiz** tadım
+2. **Hook'ta "ücretsiz" yok.** Referans videoda "Her gün üç kişiye **ücretsiz** tadım
    kampanyamız" deniyor; bu çekimde sadece "Her gün üç kişiye tadım kampanyamız".
    Whisper atlamadı, söylenmemiş. Teklifin bedava olduğu ilk 3 saniyede geçmiyor —
    bir sonraki çekimde bu kelimeyi söyletmek hook'u güçlendirir.
