@@ -1,0 +1,62 @@
+[
+ {
+  "start": 0,
+  "end": 16.79,
+  "who": "host"
+ },
+ {
+  "start": 16.79,
+  "end": 42.45,
+  "who": "misafir1"
+ },
+ {
+  "start": 42.45,
+  "end": 57.53,
+  "who": "host"
+ },
+ {
+  "start": 57.53,
+  "end": 61.35,
+  "who": "misafir2"
+ },
+ {
+  "start": 61.35,
+  "end": 62.51,
+  "who": "host"
+ },
+ {
+  "start": 62.51,
+  "end": 78.73,
+  "who": "misafir2"
+ },
+ {
+  "start": 78.73,
+  "end": 86.99,
+  "who": "misafir1"
+ },
+ {
+  "start": 86.99,
+  "end": 88.47,
+  "who": "host"
+ },
+ {
+  "start": 88.47,
+  "end": 89.15,
+  "who": "misafir2"
+ },
+ {
+  "start": 89.15,
+  "end": 90.25,
+  "who": "misafir1"
+ },
+ {
+  "start": 90.25,
+  "end": 91.73,
+  "who": "host"
+ },
+ {
+  "start": 91.73,
+  "end": 999,
+  "who": "misafir2"
+ }
+]

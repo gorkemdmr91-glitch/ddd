@@ -1,0 +1,290 @@
+[Script Info]
+; Mistanbul Döner röportaj formatı — otomatik üretildi (make_ass.py)
+ScriptType: v4.00+
+PlayResX: 1080
+PlayResY: 1920
+WrapStyle: 2
+ScaledBorderAndShadow: yes
+YCbCr Matrix: TV.709
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Altyazi,Montserrat ExtraBold,63,&H00FFFFFF,&H00FFFFFF,&H40151215,&H00000000,0,0,0,0,100,100,0,0,3,11,0,2,90,90,567,1
+Style: ChipHost,Montserrat ExtraBold,33,&H00000000,&H00000000,&H000EAFF5,&H00000000,0,0,0,0,100,100,0,0,3,9,0,1,95,90,717,1
+Style: ChipMisafir,Montserrat ExtraBold,33,&H00FFFFFF,&H00FFFFFF,&H005A5FE7,&H00000000,0,0,0,0,100,100,0,0,3,9,0,1,95,90,717,1
+Style: ChipMisafir2,Montserrat ExtraBold,33,&H00FFFFFF,&H00FFFFFF,&H00D64F8B,&H00000000,0,0,0,0,100,100,0,0,3,9,0,1,95,90,717,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:00.79,0:00:02.03,ChipHost,,0,0,0,, Volkan Usta 
+Dialogue: 1,0:00:00.79,0:00:01.47,Altyazi,,0,0,0,,{\c&H0EAFF5&}Herkese{\c&HFFFFFF&} merhabalar.
+Dialogue: 1,0:00:01.47,0:00:02.03,Altyazi,,0,0,0,,Herkese {\c&H0EAFF5&}merhabalar.{\c&HFFFFFF&}
+Dialogue: 0,0:00:02.03,0:00:03.95,ChipHost,,0,0,0,, Volkan Usta 
+Dialogue: 1,0:00:02.03,0:00:02.21,Altyazi,,0,0,0,,{\c&H0EAFF5&}Her{\c&HFFFFFF&} gün üç kişiye\Ntadım kampanyamızla
+Dialogue: 1,0:00:02.21,0:00:02.45,Altyazi,,0,0,0,,Her {\c&H0EAFF5&}gün{\c&HFFFFFF&} üç kişiye\Ntadım kampanyamızla
+Dialogue: 1,0:00:02.45,0:00:02.63,Altyazi,,0,0,0,,Her gün {\c&H0EAFF5&}üç{\c&HFFFFFF&} kişiye\Ntadım kampanyamızla
+Dialogue: 1,0:00:02.63,0:00:02.95,Altyazi,,0,0,0,,Her gün üç {\c&H0EAFF5&}kişiye{\c&HFFFFFF&}\Ntadım kampanyamızla
+Dialogue: 1,0:00:02.95,0:00:03.23,Altyazi,,0,0,0,,Her gün üç kişiye\N{\c&H0EAFF5&}tadım{\c&HFFFFFF&} kampanyamızla
+Dialogue: 1,0:00:03.23,0:00:03.95,Altyazi,,0,0,0,,Her gün üç kişiye\Ntadım {\c&H0EAFF5&}kampanyamızla{\c&HFFFFFF&}
+Dialogue: 0,0:00:03.95,0:00:07.19,ChipHost,,0,0,0,, Volkan Usta 
+Dialogue: 1,0:00:03.95,0:00:04.43,Altyazi,,0,0,0,,{\c&H0EAFF5&}alakalı{\c&HFFFFFF&} Gizem ve Görkem\Nbugünkü misafirlerimiz.
+Dialogue: 1,0:00:04.43,0:00:05.35,Altyazi,,0,0,0,,alakalı {\c&H0EAFF5&}Gizem{\c&HFFFFFF&} ve Görkem\Nbugünkü misafirlerimiz.
+Dialogue: 1,0:00:05.35,0:00:05.53,Altyazi,,0,0,0,,alakalı Gizem {\c&H0EAFF5&}ve{\c&HFFFFFF&} Görkem\Nbugünkü misafirlerimiz.
+Dialogue: 1,0:00:05.53,0:00:06.09,Altyazi,,0,0,0,,alakalı Gizem ve {\c&H0EAFF5&}Görkem{\c&HFFFFFF&}\Nbugünkü misafirlerimiz.
+Dialogue: 1,0:00:06.09,0:00:06.41,Altyazi,,0,0,0,,alakalı Gizem ve Görkem\N{\c&H0EAFF5&}bugünkü{\c&HFFFFFF&} misafirlerimiz.
+Dialogue: 1,0:00:06.41,0:00:07.19,Altyazi,,0,0,0,,alakalı Gizem ve Görkem\Nbugünkü {\c&H0EAFF5&}misafirlerimiz.{\c&HFFFFFF&}
+Dialogue: 0,0:00:07.93,0:00:09.85,ChipHost,,0,0,0,, Volkan Usta 
+Dialogue: 1,0:00:07.93,0:00:08.61,Altyazi,,0,0,0,,{\c&H0EAFF5&}Dönerimizi{\c&HFFFFFF&} tattılar,\Nyemeğimizi yedik.
+Dialogue: 1,0:00:08.61,0:00:09.17,Altyazi,,0,0,0,,Dönerimizi {\c&H0EAFF5&}tattılar,{\c&HFFFFFF&}\Nyemeğimizi yedik.
+Dialogue: 1,0:00:09.17,0:00:09.63,Altyazi,,0,0,0,,Dönerimizi tattılar,\N{\c&H0EAFF5&}yemeğimizi{\c&HFFFFFF&} yedik.
+Dialogue: 1,0:00:09.63,0:00:09.85,Altyazi,,0,0,0,,Dönerimizi tattılar,\Nyemeğimizi {\c&H0EAFF5&}yedik.{\c&HFFFFFF&}
+Dialogue: 0,0:00:09.85,0:00:10.73,ChipHost,,0,0,0,, Volkan Usta 
+Dialogue: 1,0:00:09.85,0:00:10.01,Altyazi,,0,0,0,,{\c&H0EAFF5&}Şimdi{\c&HFFFFFF&} çayımızı içeceğiz.
+Dialogue: 1,0:00:10.01,0:00:10.33,Altyazi,,0,0,0,,Şimdi {\c&H0EAFF5&}çayımızı{\c&HFFFFFF&} içeceğiz.
+Dialogue: 1,0:00:10.33,0:00:10.73,Altyazi,,0,0,0,,Şimdi çayımızı {\c&H0EAFF5&}içeceğiz.{\c&HFFFFFF&}
+Dialogue: 0,0:00:11.85,0:00:13.23,ChipHost,,0,0,0,, Volkan Usta 
+Dialogue: 1,0:00:11.85,0:00:12.53,Altyazi,,0,0,0,,{\c&H0EAFF5&}Fikirlerini{\c&HFFFFFF&} alalım\Nöncelikle.
+Dialogue: 1,0:00:12.53,0:00:12.79,Altyazi,,0,0,0,,Fikirlerini {\c&H0EAFF5&}alalım{\c&HFFFFFF&}\Nöncelikle.
+Dialogue: 1,0:00:12.79,0:00:13.23,Altyazi,,0,0,0,,Fikirlerini alalım\N{\c&H0EAFF5&}öncelikle.{\c&HFFFFFF&}
+Dialogue: 0,0:00:13.27,0:00:14.25,ChipHost,,0,0,0,, Volkan Usta 
+Dialogue: 1,0:00:13.27,0:00:13.47,Altyazi,,0,0,0,,{\c&H0EAFF5&}Ona{\c&HFFFFFF&} göre devam edelim.
+Dialogue: 1,0:00:13.47,0:00:13.65,Altyazi,,0,0,0,,Ona {\c&H0EAFF5&}göre{\c&HFFFFFF&} devam edelim.
+Dialogue: 1,0:00:13.65,0:00:13.89,Altyazi,,0,0,0,,Ona göre {\c&H0EAFF5&}devam{\c&HFFFFFF&} edelim.
+Dialogue: 1,0:00:13.89,0:00:14.25,Altyazi,,0,0,0,,Ona göre devam {\c&H0EAFF5&}edelim.{\c&HFFFFFF&}
+Dialogue: 0,0:00:14.35,0:00:15.29,ChipHost,,0,0,0,, Volkan Usta 
+Dialogue: 1,0:00:14.35,0:00:14.85,Altyazi,,0,0,0,,{\c&H0EAFF5&}Önce{\c&HFFFFFF&} bayanlar.
+Dialogue: 1,0:00:14.85,0:00:15.29,Altyazi,,0,0,0,,Önce {\c&H0EAFF5&}bayanlar.{\c&HFFFFFF&}
+Dialogue: 0,0:00:16.79,0:00:18.35,ChipMisafir,,0,0,0,, Gizem Hanım 
+Dialogue: 1,0:00:16.79,0:00:17.47,Altyazi,,0,0,0,,{\c&H5A5FE7&}Öncelikle{\c&HFFFFFF&} ben şunu\Nsöylemek istiyorum.
+Dialogue: 1,0:00:17.47,0:00:17.63,Altyazi,,0,0,0,,Öncelikle {\c&H5A5FE7&}ben{\c&HFFFFFF&} şunu\Nsöylemek istiyorum.
+Dialogue: 1,0:00:17.63,0:00:17.79,Altyazi,,0,0,0,,Öncelikle ben {\c&H5A5FE7&}şunu{\c&HFFFFFF&}\Nsöylemek istiyorum.
+Dialogue: 1,0:00:17.79,0:00:18.15,Altyazi,,0,0,0,,Öncelikle ben şunu\N{\c&H5A5FE7&}söylemek{\c&HFFFFFF&} istiyorum.
+Dialogue: 1,0:00:18.15,0:00:18.35,Altyazi,,0,0,0,,Öncelikle ben şunu\Nsöylemek {\c&H5A5FE7&}istiyorum.{\c&HFFFFFF&}
+Dialogue: 0,0:00:18.55,0:00:19.47,ChipMisafir,,0,0,0,, Gizem Hanım 
+Dialogue: 1,0:00:18.55,0:00:18.69,Altyazi,,0,0,0,,{\c&H5A5FE7&}Ben{\c&HFFFFFF&} Bursalıyım.
+Dialogue: 1,0:00:18.69,0:00:19.47,Altyazi,,0,0,0,,Ben {\c&H5A5FE7&}Bursalıyım.{\c&HFFFFFF&}
+Dialogue: 0,0:00:19.81,0:00:22.71,ChipMisafir,,0,0,0,, Gizem Hanım 
+Dialogue: 1,0:00:19.81,0:00:20.49,Altyazi,,0,0,0,,{\c&H5A5FE7&}Ve{\c&HFFFFFF&} Bursa'da dönerin\Nne kadar önemli
+Dialogue: 1,0:00:20.49,0:00:21.39,Altyazi,,0,0,0,,Ve {\c&H5A5FE7&}Bursa'da{\c&HFFFFFF&} dönerin\Nne kadar önemli
+Dialogue: 1,0:00:21.39,0:00:21.79,Altyazi,,0,0,0,,Ve Bursa'da {\c&H5A5FE7&}dönerin{\c&HFFFFFF&}\Nne kadar önemli
+Dialogue: 1,0:00:21.79,0:00:21.93,Altyazi,,0,0,0,,Ve Bursa'da dönerin\N{\c&H5A5FE7&}ne{\c&HFFFFFF&} kadar önemli
+Dialogue: 1,0:00:21.93,0:00:22.19,Altyazi,,0,0,0,,Ve Bursa'da dönerin\Nne {\c&H5A5FE7&}kadar{\c&HFFFFFF&} önemli
+Dialogue: 1,0:00:22.19,0:00:22.71,Altyazi,,0,0,0,,Ve Bursa'da dönerin\Nne kadar {\c&H5A5FE7&}önemli{\c&HFFFFFF&}
+Dialogue: 0,0:00:22.71,0:00:24.63,ChipMisafir,,0,0,0,, Gizem Hanım 
+Dialogue: 1,0:00:22.71,0:00:23.15,Altyazi,,0,0,0,,{\c&H5A5FE7&}olduğunu{\c&HFFFFFF&} az buçuk\Nbilirsiniz zaten.
+Dialogue: 1,0:00:23.15,0:00:23.57,Altyazi,,0,0,0,,olduğunu {\c&H5A5FE7&}az{\c&HFFFFFF&} buçuk\Nbilirsiniz zaten.
+Dialogue: 1,0:00:23.57,0:00:23.87,Altyazi,,0,0,0,,olduğunu az {\c&H5A5FE7&}buçuk{\c&HFFFFFF&}\Nbilirsiniz zaten.
+Dialogue: 1,0:00:23.87,0:00:24.21,Altyazi,,0,0,0,,olduğunu az buçuk\N{\c&H5A5FE7&}bilirsiniz{\c&HFFFFFF&} zaten.
+Dialogue: 1,0:00:24.21,0:00:24.63,Altyazi,,0,0,0,,olduğunu az buçuk\Nbilirsiniz {\c&H5A5FE7&}zaten.{\c&HFFFFFF&}
+Dialogue: 0,0:00:25.60,0:00:28.02,ChipMisafir,,0,0,0,, Gizem Hanım 
+Dialogue: 1,0:00:25.60,0:00:26.32,Altyazi,,0,0,0,,{\c&H5A5FE7&}Gittiğim{\c&HFFFFFF&} her yerde de\Nsürekli döner yedim.
+Dialogue: 1,0:00:26.32,0:00:26.46,Altyazi,,0,0,0,,Gittiğim {\c&H5A5FE7&}her{\c&HFFFFFF&} yerde de\Nsürekli döner yedim.
+Dialogue: 1,0:00:26.46,0:00:26.78,Altyazi,,0,0,0,,Gittiğim her {\c&H5A5FE7&}yerde{\c&HFFFFFF&} de\Nsürekli döner yedim.
+Dialogue: 1,0:00:26.78,0:00:26.94,Altyazi,,0,0,0,,Gittiğim her yerde {\c&H5A5FE7&}de{\c&HFFFFFF&}\Nsürekli döner yedim.
+Dialogue: 1,0:00:26.94,0:00:27.26,Altyazi,,0,0,0,,Gittiğim her yerde de\N{\c&H5A5FE7&}sürekli{\c&HFFFFFF&} döner yedim.
+Dialogue: 1,0:00:27.26,0:00:27.66,Altyazi,,0,0,0,,Gittiğim her yerde de\Nsürekli {\c&H5A5FE7&}döner{\c&HFFFFFF&} yedim.
+Dialogue: 1,0:00:27.66,0:00:28.02,Altyazi,,0,0,0,,Gittiğim her yerde de\Nsürekli döner {\c&H5A5FE7&}yedim.{\c&HFFFFFF&}
+Dialogue: 0,0:00:28.08,0:00:30.48,ChipMisafir,,0,0,0,, Gizem Hanım 
+Dialogue: 1,0:00:28.08,0:00:28.34,Altyazi,,0,0,0,,{\c&H5A5FE7&}Ama{\c&HFFFFFF&} burada ben\Nfarklı bir şey gördüm.
+Dialogue: 1,0:00:28.34,0:00:28.80,Altyazi,,0,0,0,,Ama {\c&H5A5FE7&}burada{\c&HFFFFFF&} ben\Nfarklı bir şey gördüm.
+Dialogue: 1,0:00:28.80,0:00:29.10,Altyazi,,0,0,0,,Ama burada {\c&H5A5FE7&}ben{\c&HFFFFFF&}\Nfarklı bir şey gördüm.
+Dialogue: 1,0:00:29.10,0:00:29.60,Altyazi,,0,0,0,,Ama burada ben\N{\c&H5A5FE7&}farklı{\c&HFFFFFF&} bir şey gördüm.
+Dialogue: 1,0:00:29.60,0:00:29.82,Altyazi,,0,0,0,,Ama burada ben\Nfarklı {\c&H5A5FE7&}bir{\c&HFFFFFF&} şey gördüm.
+Dialogue: 1,0:00:29.82,0:00:30.02,Altyazi,,0,0,0,,Ama burada ben\Nfarklı bir {\c&H5A5FE7&}şey{\c&HFFFFFF&} gördüm.
+Dialogue: 1,0:00:30.02,0:00:30.48,Altyazi,,0,0,0,,Ama burada ben\Nfarklı bir şey {\c&H5A5FE7&}gördüm.{\c&HFFFFFF&}
+Dialogue: 0,0:00:31.31,0:00:34.71,ChipMisafir,,0,0,0,, Gizem Hanım 
+Dialogue: 1,0:00:31.31,0:00:32.03,Altyazi,,0,0,0,,{\c&H5A5FE7&}Ciddi{\c&HFFFFFF&} anlamda\Nböyle aradığımız o
+Dialogue: 1,0:00:32.03,0:00:32.47,Altyazi,,0,0,0,,Ciddi {\c&H5A5FE7&}anlamda{\c&HFFFFFF&}\Nböyle aradığımız o
+Dialogue: 1,0:00:32.47,0:00:32.71,Altyazi,,0,0,0,,Ciddi anlamda\N{\c&H5A5FE7&}böyle{\c&HFFFFFF&} aradığımız o
+Dialogue: 1,0:00:32.71,0:00:34.09,Altyazi,,0,0,0,,Ciddi anlamda\Nböyle {\c&H5A5FE7&}aradığımız{\c&HFFFFFF&} o
+Dialogue: 1,0:00:34.09,0:00:34.71,Altyazi,,0,0,0,,Ciddi anlamda\Nböyle aradığımız {\c&H5A5FE7&}o{\c&HFFFFFF&}
+Dialogue: 0,0:00:34.71,0:00:37.87,ChipMisafir,,0,0,0,, Gizem Hanım 
+Dialogue: 1,0:00:34.71,0:00:35.35,Altyazi,,0,0,0,,{\c&H5A5FE7&}klasik{\c&HFFFFFF&} lezzetin\Nyanı sıra burada
+Dialogue: 1,0:00:35.35,0:00:35.93,Altyazi,,0,0,0,,klasik {\c&H5A5FE7&}lezzetin{\c&HFFFFFF&}\Nyanı sıra burada
+Dialogue: 1,0:00:35.93,0:00:36.75,Altyazi,,0,0,0,,klasik lezzetin\N{\c&H5A5FE7&}yanı{\c&HFFFFFF&} sıra burada
+Dialogue: 1,0:00:36.75,0:00:37.13,Altyazi,,0,0,0,,klasik lezzetin\Nyanı {\c&H5A5FE7&}sıra{\c&HFFFFFF&} burada
+Dialogue: 1,0:00:37.13,0:00:37.87,Altyazi,,0,0,0,,klasik lezzetin\Nyanı sıra {\c&H5A5FE7&}burada{\c&HFFFFFF&}
+Dialogue: 0,0:00:37.87,0:00:39.57,ChipMisafir,,0,0,0,, Gizem Hanım 
+Dialogue: 1,0:00:37.87,0:00:38.19,Altyazi,,0,0,0,,{\c&H5A5FE7&}çok{\c&HFFFFFF&} farklı bir tat vardı.
+Dialogue: 1,0:00:38.19,0:00:38.59,Altyazi,,0,0,0,,çok {\c&H5A5FE7&}farklı{\c&HFFFFFF&} bir tat vardı.
+Dialogue: 1,0:00:38.59,0:00:38.79,Altyazi,,0,0,0,,çok farklı {\c&H5A5FE7&}bir{\c&HFFFFFF&} tat vardı.
+Dialogue: 1,0:00:38.79,0:00:39.27,Altyazi,,0,0,0,,çok farklı bir {\c&H5A5FE7&}tat{\c&HFFFFFF&} vardı.
+Dialogue: 1,0:00:39.27,0:00:39.57,Altyazi,,0,0,0,,çok farklı bir tat {\c&H5A5FE7&}vardı.{\c&HFFFFFF&}
+Dialogue: 0,0:00:40.15,0:00:41.77,ChipMisafir,,0,0,0,, Gizem Hanım 
+Dialogue: 1,0:00:40.15,0:00:40.87,Altyazi,,0,0,0,,{\c&H5A5FE7&}Herkesin{\c&HFFFFFF&}\Ndenemesini tavsiye
+Dialogue: 1,0:00:40.87,0:00:41.35,Altyazi,,0,0,0,,Herkesin\N{\c&H5A5FE7&}denemesini{\c&HFFFFFF&} tavsiye
+Dialogue: 1,0:00:41.35,0:00:41.77,Altyazi,,0,0,0,,Herkesin\Ndenemesini {\c&H5A5FE7&}tavsiye{\c&HFFFFFF&}
+Dialogue: 0,0:00:41.77,0:00:42.45,ChipMisafir,,0,0,0,, Gizem Hanım 
+Dialogue: 1,0:00:41.77,0:00:42.03,Altyazi,,0,0,0,,{\c&H5A5FE7&}ediyorum{\c&HFFFFFF&} bu arada.
+Dialogue: 1,0:00:42.03,0:00:42.33,Altyazi,,0,0,0,,ediyorum {\c&H5A5FE7&}bu{\c&HFFFFFF&} arada.
+Dialogue: 1,0:00:42.33,0:00:42.45,Altyazi,,0,0,0,,ediyorum bu {\c&H5A5FE7&}arada.{\c&HFFFFFF&}
+Dialogue: 0,0:00:42.45,0:00:43.17,ChipHost,,0,0,0,, Volkan Usta 
+Dialogue: 1,0:00:42.45,0:00:42.95,Altyazi,,0,0,0,,{\c&H0EAFF5&}Çok{\c&HFFFFFF&} teşekkür ederim.
+Dialogue: 1,0:00:42.95,0:00:43.00,Altyazi,,0,0,0,,Çok {\c&H0EAFF5&}teşekkür{\c&HFFFFFF&} ederim.
+Dialogue: 1,0:00:42.97,0:00:43.17,Altyazi,,0,0,0,,Çok teşekkür {\c&H0EAFF5&}ederim.{\c&HFFFFFF&}
+Dialogue: 0,0:00:43.75,0:00:48.11,ChipHost,,0,0,0,, Volkan Usta 
+Dialogue: 1,0:00:43.75,0:00:44.47,Altyazi,,0,0,0,,{\c&H0EAFF5&}Yani{\c&HFFFFFF&} bizim zaten\Nyapmaya çalıştığımız
+Dialogue: 1,0:00:44.47,0:00:45.43,Altyazi,,0,0,0,,Yani {\c&H0EAFF5&}bizim{\c&HFFFFFF&} zaten\Nyapmaya çalıştığımız
+Dialogue: 1,0:00:45.43,0:00:45.79,Altyazi,,0,0,0,,Yani bizim {\c&H0EAFF5&}zaten{\c&HFFFFFF&}\Nyapmaya çalıştığımız
+Dialogue: 1,0:00:45.79,0:00:47.61,Altyazi,,0,0,0,,Yani bizim zaten\N{\c&H0EAFF5&}yapmaya{\c&HFFFFFF&} çalıştığımız
+Dialogue: 1,0:00:47.61,0:00:48.11,Altyazi,,0,0,0,,Yani bizim zaten\Nyapmaya {\c&H0EAFF5&}çalıştığımız{\c&HFFFFFF&}
+Dialogue: 0,0:00:48.11,0:00:49.47,ChipHost,,0,0,0,, Volkan Usta 
+Dialogue: 1,0:00:48.11,0:00:48.39,Altyazi,,0,0,0,,{\c&H0EAFF5&}salt{\c&HFFFFFF&} bir klasik döner değil.
+Dialogue: 1,0:00:48.39,0:00:48.59,Altyazi,,0,0,0,,salt {\c&H0EAFF5&}bir{\c&HFFFFFF&} klasik döner değil.
+Dialogue: 1,0:00:48.59,0:00:48.97,Altyazi,,0,0,0,,salt bir {\c&H0EAFF5&}klasik{\c&HFFFFFF&} döner değil.
+Dialogue: 1,0:00:48.97,0:00:49.27,Altyazi,,0,0,0,,salt bir klasik {\c&H0EAFF5&}döner{\c&HFFFFFF&} değil.
+Dialogue: 1,0:00:49.27,0:00:49.47,Altyazi,,0,0,0,,salt bir klasik döner {\c&H0EAFF5&}değil.{\c&HFFFFFF&}
+Dialogue: 0,0:00:49.57,0:00:50.99,ChipHost,,0,0,0,, Volkan Usta 
+Dialogue: 1,0:00:49.57,0:00:50.01,Altyazi,,0,0,0,,{\c&H0EAFF5&}Bir{\c&HFFFFFF&} tık üstü için\Nuğraşıyoruz.
+Dialogue: 1,0:00:50.01,0:00:50.27,Altyazi,,0,0,0,,Bir {\c&H0EAFF5&}tık{\c&HFFFFFF&} üstü için\Nuğraşıyoruz.
+Dialogue: 1,0:00:50.27,0:00:50.51,Altyazi,,0,0,0,,Bir tık {\c&H0EAFF5&}üstü{\c&HFFFFFF&} için\Nuğraşıyoruz.
+Dialogue: 1,0:00:50.51,0:00:50.63,Altyazi,,0,0,0,,Bir tık üstü {\c&H0EAFF5&}için{\c&HFFFFFF&}\Nuğraşıyoruz.
+Dialogue: 1,0:00:50.63,0:00:50.99,Altyazi,,0,0,0,,Bir tık üstü için\N{\c&H0EAFF5&}uğraşıyoruz.{\c&HFFFFFF&}
+Dialogue: 0,0:00:51.37,0:00:52.65,ChipHost,,0,0,0,, Volkan Usta 
+Dialogue: 1,0:00:51.37,0:00:52.03,Altyazi,,0,0,0,,{\c&H0EAFF5&}Elimizden{\c&HFFFFFF&} geldiğince ne
+Dialogue: 1,0:00:52.03,0:00:52.51,Altyazi,,0,0,0,,Elimizden {\c&H0EAFF5&}geldiğince{\c&HFFFFFF&} ne
+Dialogue: 1,0:00:52.51,0:00:52.65,Altyazi,,0,0,0,,Elimizden geldiğince {\c&H0EAFF5&}ne{\c&HFFFFFF&}
+Dialogue: 0,0:00:52.65,0:00:53.97,ChipHost,,0,0,0,, Volkan Usta 
+Dialogue: 1,0:00:52.65,0:00:52.83,Altyazi,,0,0,0,,{\c&H0EAFF5&}kadar{\c&HFFFFFF&} becerebiliyoruz\Nbilmiyoruz.
+Dialogue: 1,0:00:52.83,0:00:53.57,Altyazi,,0,0,0,,kadar {\c&H0EAFF5&}becerebiliyoruz{\c&HFFFFFF&}\Nbilmiyoruz.
+Dialogue: 1,0:00:53.57,0:00:53.97,Altyazi,,0,0,0,,kadar becerebiliyoruz\N{\c&H0EAFF5&}bilmiyoruz.{\c&HFFFFFF&}
+Dialogue: 0,0:00:53.97,0:00:54.71,ChipHost,,0,0,0,, Volkan Usta 
+Dialogue: 1,0:00:53.97,0:00:54.21,Altyazi,,0,0,0,,{\c&H0EAFF5&}Bunları{\c&HFFFFFF&} kararlı tutuyoruz.
+Dialogue: 1,0:00:54.21,0:00:54.65,Altyazi,,0,0,0,,Bunları {\c&H0EAFF5&}kararlı{\c&HFFFFFF&} tutuyoruz.
+Dialogue: 1,0:00:54.65,0:00:54.71,Altyazi,,0,0,0,,Bunları kararlı {\c&H0EAFF5&}tutuyoruz.{\c&HFFFFFF&}
+Dialogue: 0,0:00:54.73,0:00:55.99,ChipHost,,0,0,0,, Volkan Usta 
+Dialogue: 1,0:00:54.73,0:00:54.81,Altyazi,,0,0,0,,{\c&H0EAFF5&}Tabii{\c&HFFFFFF&} ki siz\Nvereceksiniz yani.
+Dialogue: 1,0:00:54.81,0:00:54.99,Altyazi,,0,0,0,,Tabii {\c&H0EAFF5&}ki{\c&HFFFFFF&} siz\Nvereceksiniz yani.
+Dialogue: 1,0:00:54.99,0:00:55.17,Altyazi,,0,0,0,,Tabii ki {\c&H0EAFF5&}siz{\c&HFFFFFF&}\Nvereceksiniz yani.
+Dialogue: 1,0:00:55.17,0:00:55.75,Altyazi,,0,0,0,,Tabii ki siz\N{\c&H0EAFF5&}vereceksiniz{\c&HFFFFFF&} yani.
+Dialogue: 1,0:00:55.75,0:00:55.99,Altyazi,,0,0,0,,Tabii ki siz\Nvereceksiniz {\c&H0EAFF5&}yani.{\c&HFFFFFF&}
+Dialogue: 0,0:00:56.09,0:00:57.27,ChipHost,,0,0,0,, Volkan Usta 
+Dialogue: 1,0:00:56.09,0:00:56.31,Altyazi,,0,0,0,,{\c&H0EAFF5&}Evet{\c&HFFFFFF&} Görkem\Nseni dinliyoruz.
+Dialogue: 1,0:00:56.31,0:00:56.65,Altyazi,,0,0,0,,Evet {\c&H0EAFF5&}Görkem{\c&HFFFFFF&}\Nseni dinliyoruz.
+Dialogue: 1,0:00:56.65,0:00:56.85,Altyazi,,0,0,0,,Evet Görkem\N{\c&H0EAFF5&}seni{\c&HFFFFFF&} dinliyoruz.
+Dialogue: 1,0:00:56.85,0:00:57.27,Altyazi,,0,0,0,,Evet Görkem\Nseni {\c&H0EAFF5&}dinliyoruz.{\c&HFFFFFF&}
+Dialogue: 0,0:00:57.53,0:00:58.83,ChipMisafir2,,0,0,0,, Görkem Bey 
+Dialogue: 1,0:00:57.53,0:00:58.01,Altyazi,,0,0,0,,{\c&H8B4FD6&}Abi{\c&HFFFFFF&} şöyle söyleyeyim.
+Dialogue: 1,0:00:58.01,0:00:58.33,Altyazi,,0,0,0,,Abi {\c&H8B4FD6&}şöyle{\c&HFFFFFF&} söyleyeyim.
+Dialogue: 1,0:00:58.33,0:00:58.83,Altyazi,,0,0,0,,Abi şöyle {\c&H8B4FD6&}söyleyeyim.{\c&HFFFFFF&}
+Dialogue: 0,0:00:58.83,0:00:59.51,ChipMisafir2,,0,0,0,, Görkem Bey 
+Dialogue: 1,0:00:58.83,0:00:58.91,Altyazi,,0,0,0,,{\c&H8B4FD6&}Bir{\c&HFFFFFF&} tık daha üstünü
+Dialogue: 1,0:00:58.91,0:00:59.11,Altyazi,,0,0,0,,Bir {\c&H8B4FD6&}tık{\c&HFFFFFF&} daha üstünü
+Dialogue: 1,0:00:59.11,0:00:59.21,Altyazi,,0,0,0,,Bir tık {\c&H8B4FD6&}daha{\c&HFFFFFF&} üstünü
+Dialogue: 1,0:00:59.21,0:00:59.51,Altyazi,,0,0,0,,Bir tık daha {\c&H8B4FD6&}üstünü{\c&HFFFFFF&}
+Dialogue: 0,0:00:59.51,0:01:01.23,ChipMisafir2,,0,0,0,, Görkem Bey 
+Dialogue: 1,0:00:59.51,0:00:59.81,Altyazi,,0,0,0,,{\c&H8B4FD6&}yapmaya{\c&HFFFFFF&} çalışmışsın\Nve başarmışsın.
+Dialogue: 1,0:00:59.81,0:01:00.37,Altyazi,,0,0,0,,yapmaya {\c&H8B4FD6&}çalışmışsın{\c&HFFFFFF&}\Nve başarmışsın.
+Dialogue: 1,0:01:00.37,0:01:00.57,Altyazi,,0,0,0,,yapmaya çalışmışsın\N{\c&H8B4FD6&}ve{\c&HFFFFFF&} başarmışsın.
+Dialogue: 1,0:01:00.57,0:01:01.23,Altyazi,,0,0,0,,yapmaya çalışmışsın\Nve {\c&H8B4FD6&}başarmışsın.{\c&HFFFFFF&}
+Dialogue: 0,0:01:01.35,0:01:01.83,ChipHost,,0,0,0,, Volkan Usta 
+Dialogue: 1,0:01:01.35,0:01:01.83,Altyazi,,0,0,0,,{\c&H0EAFF5&}Eyvallah.{\c&HFFFFFF&}
+Dialogue: 0,0:01:02.51,0:01:03.33,ChipMisafir2,,0,0,0,, Görkem Bey 
+Dialogue: 1,0:01:02.51,0:01:02.99,Altyazi,,0,0,0,,{\c&H8B4FD6&}Şöyle{\c&HFFFFFF&} söyleyeyim.
+Dialogue: 1,0:01:02.99,0:01:03.33,Altyazi,,0,0,0,,Şöyle {\c&H8B4FD6&}söyleyeyim.{\c&HFFFFFF&}
+Dialogue: 0,0:01:03.37,0:01:04.51,ChipMisafir2,,0,0,0,, Görkem Bey 
+Dialogue: 1,0:01:03.37,0:01:03.57,Altyazi,,0,0,0,,{\c&H8B4FD6&}Hepimiz{\c&HFFFFFF&} her yerde\Ndöner yiyoruz.
+Dialogue: 1,0:01:03.57,0:01:03.73,Altyazi,,0,0,0,,Hepimiz {\c&H8B4FD6&}her{\c&HFFFFFF&} yerde\Ndöner yiyoruz.
+Dialogue: 1,0:01:03.73,0:01:03.95,Altyazi,,0,0,0,,Hepimiz her {\c&H8B4FD6&}yerde{\c&HFFFFFF&}\Ndöner yiyoruz.
+Dialogue: 1,0:01:03.95,0:01:04.27,Altyazi,,0,0,0,,Hepimiz her yerde\N{\c&H8B4FD6&}döner{\c&HFFFFFF&} yiyoruz.
+Dialogue: 1,0:01:04.27,0:01:04.51,Altyazi,,0,0,0,,Hepimiz her yerde\Ndöner {\c&H8B4FD6&}yiyoruz.{\c&HFFFFFF&}
+Dialogue: 0,0:01:04.91,0:01:06.35,ChipMisafir2,,0,0,0,, Görkem Bey 
+Dialogue: 1,0:01:04.91,0:01:05.39,Altyazi,,0,0,0,,{\c&H8B4FD6&}Ben{\c&HFFFFFF&} şunlardan\Nçok sıkıldım.
+Dialogue: 1,0:01:05.39,0:01:05.77,Altyazi,,0,0,0,,Ben {\c&H8B4FD6&}şunlardan{\c&HFFFFFF&}\Nçok sıkıldım.
+Dialogue: 1,0:01:05.77,0:01:06.01,Altyazi,,0,0,0,,Ben şunlardan\N{\c&H8B4FD6&}çok{\c&HFFFFFF&} sıkıldım.
+Dialogue: 1,0:01:06.01,0:01:06.35,Altyazi,,0,0,0,,Ben şunlardan\Nçok {\c&H8B4FD6&}sıkıldım.{\c&HFFFFFF&}
+Dialogue: 0,0:01:06.39,0:01:07.45,ChipMisafir2,,0,0,0,, Görkem Bey 
+Dialogue: 1,0:01:06.39,0:01:06.49,Altyazi,,0,0,0,,{\c&H8B4FD6&}Şimdi{\c&HFFFFFF&} adam döner\Ndiye satıyor.
+Dialogue: 1,0:01:06.49,0:01:06.65,Altyazi,,0,0,0,,Şimdi {\c&H8B4FD6&}adam{\c&HFFFFFF&} döner\Ndiye satıyor.
+Dialogue: 1,0:01:06.65,0:01:06.99,Altyazi,,0,0,0,,Şimdi adam {\c&H8B4FD6&}döner{\c&HFFFFFF&}\Ndiye satıyor.
+Dialogue: 1,0:01:06.99,0:01:07.11,Altyazi,,0,0,0,,Şimdi adam döner\N{\c&H8B4FD6&}diye{\c&HFFFFFF&} satıyor.
+Dialogue: 1,0:01:07.11,0:01:07.45,Altyazi,,0,0,0,,Şimdi adam döner\Ndiye {\c&H8B4FD6&}satıyor.{\c&HFFFFFF&}
+Dialogue: 0,0:01:08.07,0:01:09.15,ChipMisafir2,,0,0,0,, Görkem Bey 
+Dialogue: 1,0:01:08.07,0:01:08.55,Altyazi,,0,0,0,,{\c&H8B4FD6&}İçerisine{\c&HFFFFFF&} sosu basıyor.
+Dialogue: 1,0:01:08.55,0:01:08.87,Altyazi,,0,0,0,,İçerisine {\c&H8B4FD6&}sosu{\c&HFFFFFF&} basıyor.
+Dialogue: 1,0:01:08.87,0:01:09.15,Altyazi,,0,0,0,,İçerisine sosu {\c&H8B4FD6&}basıyor.{\c&HFFFFFF&}
+Dialogue: 0,0:01:09.27,0:01:10.07,ChipMisafir2,,0,0,0,, Görkem Bey 
+Dialogue: 1,0:01:09.27,0:01:09.67,Altyazi,,0,0,0,,{\c&H8B4FD6&}İçerisinde{\c&HFFFFFF&} et yok.
+Dialogue: 1,0:01:09.67,0:01:09.89,Altyazi,,0,0,0,,İçerisinde {\c&H8B4FD6&}et{\c&HFFFFFF&} yok.
+Dialogue: 1,0:01:09.89,0:01:10.07,Altyazi,,0,0,0,,İçerisinde et {\c&H8B4FD6&}yok.{\c&HFFFFFF&}
+Dialogue: 0,0:01:10.39,0:01:11.39,ChipMisafir2,,0,0,0,, Görkem Bey 
+Dialogue: 1,0:01:10.39,0:01:10.87,Altyazi,,0,0,0,,{\c&H8B4FD6&}Patates{\c&HFFFFFF&} bilmem ne.
+Dialogue: 1,0:01:10.87,0:01:11.25,Altyazi,,0,0,0,,Patates {\c&H8B4FD6&}bilmem{\c&HFFFFFF&} ne.
+Dialogue: 1,0:01:11.25,0:01:11.39,Altyazi,,0,0,0,,Patates bilmem {\c&H8B4FD6&}ne.{\c&HFFFFFF&}
+Dialogue: 0,0:01:11.53,0:01:13.31,ChipMisafir2,,0,0,0,, Görkem Bey 
+Dialogue: 1,0:01:11.53,0:01:12.01,Altyazi,,0,0,0,,{\c&H8B4FD6&}Onu{\c&HFFFFFF&} da 300-350\Nliraya satıyor.
+Dialogue: 1,0:01:12.01,0:01:12.15,Altyazi,,0,0,0,,Onu {\c&H8B4FD6&}da{\c&HFFFFFF&} 300-350\Nliraya satıyor.
+Dialogue: 1,0:01:12.15,0:01:12.61,Altyazi,,0,0,0,,Onu da {\c&H8B4FD6&}300-350{\c&HFFFFFF&}\Nliraya satıyor.
+Dialogue: 1,0:01:12.61,0:01:12.97,Altyazi,,0,0,0,,Onu da 300-350\N{\c&H8B4FD6&}liraya{\c&HFFFFFF&} satıyor.
+Dialogue: 1,0:01:12.97,0:01:13.31,Altyazi,,0,0,0,,Onu da 300-350\Nliraya {\c&H8B4FD6&}satıyor.{\c&HFFFFFF&}
+Dialogue: 0,0:01:13.63,0:01:15.01,ChipMisafir2,,0,0,0,, Görkem Bey 
+Dialogue: 1,0:01:13.63,0:01:14.11,Altyazi,,0,0,0,,{\c&H8B4FD6&}Biz{\c&HFFFFFF&} de döner diye yiyoruz.
+Dialogue: 1,0:01:14.11,0:01:14.35,Altyazi,,0,0,0,,Biz {\c&H8B4FD6&}de{\c&HFFFFFF&} döner diye yiyoruz.
+Dialogue: 1,0:01:14.35,0:01:14.67,Altyazi,,0,0,0,,Biz de {\c&H8B4FD6&}döner{\c&HFFFFFF&} diye yiyoruz.
+Dialogue: 1,0:01:14.67,0:01:14.77,Altyazi,,0,0,0,,Biz de döner {\c&H8B4FD6&}diye{\c&HFFFFFF&} yiyoruz.
+Dialogue: 1,0:01:14.77,0:01:15.01,Altyazi,,0,0,0,,Biz de döner diye {\c&H8B4FD6&}yiyoruz.{\c&HFFFFFF&}
+Dialogue: 0,0:01:15.05,0:01:15.57,ChipMisafir2,,0,0,0,, Görkem Bey 
+Dialogue: 1,0:01:15.05,0:01:15.19,Altyazi,,0,0,0,,{\c&H8B4FD6&}Şimdi{\c&HFFFFFF&} bir o var.
+Dialogue: 1,0:01:15.19,0:01:15.31,Altyazi,,0,0,0,,Şimdi {\c&H8B4FD6&}bir{\c&HFFFFFF&} o var.
+Dialogue: 1,0:01:15.31,0:01:15.43,Altyazi,,0,0,0,,Şimdi bir {\c&H8B4FD6&}o{\c&HFFFFFF&} var.
+Dialogue: 1,0:01:15.43,0:01:15.57,Altyazi,,0,0,0,,Şimdi bir o {\c&H8B4FD6&}var.{\c&HFFFFFF&}
+Dialogue: 0,0:01:15.73,0:01:16.89,ChipMisafir2,,0,0,0,, Görkem Bey 
+Dialogue: 1,0:01:15.73,0:01:16.15,Altyazi,,0,0,0,,{\c&H8B4FD6&}Bir{\c&HFFFFFF&} de bu var.
+Dialogue: 1,0:01:16.15,0:01:16.23,Altyazi,,0,0,0,,Bir {\c&H8B4FD6&}de{\c&HFFFFFF&} bu var.
+Dialogue: 1,0:01:16.23,0:01:16.79,Altyazi,,0,0,0,,Bir de {\c&H8B4FD6&}bu{\c&HFFFFFF&} var.
+Dialogue: 1,0:01:16.79,0:01:16.89,Altyazi,,0,0,0,,Bir de bu {\c&H8B4FD6&}var.{\c&HFFFFFF&}
+Dialogue: 0,0:01:17.35,0:01:18.37,ChipMisafir2,,0,0,0,, Görkem Bey 
+Dialogue: 1,0:01:17.35,0:01:17.83,Altyazi,,0,0,0,,{\c&H8B4FD6&}Dolayısıyla{\c&HFFFFFF&} bence bu.
+Dialogue: 1,0:01:17.83,0:01:18.23,Altyazi,,0,0,0,,Dolayısıyla {\c&H8B4FD6&}bence{\c&HFFFFFF&} bu.
+Dialogue: 1,0:01:18.23,0:01:18.37,Altyazi,,0,0,0,,Dolayısıyla bence {\c&H8B4FD6&}bu.{\c&HFFFFFF&}
+Dialogue: 0,0:01:18.73,0:01:21.45,ChipMisafir,,0,0,0,, Gizem Hanım 
+Dialogue: 1,0:01:18.73,0:01:18.99,Altyazi,,0,0,0,,{\c&H5A5FE7&}Bu{\c&HFFFFFF&} arada gördüğünüzden\Nberi iki aydır
+Dialogue: 1,0:01:18.99,0:01:19.19,Altyazi,,0,0,0,,Bu {\c&H5A5FE7&}arada{\c&HFFFFFF&} gördüğünüzden\Nberi iki aydır
+Dialogue: 1,0:01:19.19,0:01:20.59,Altyazi,,0,0,0,,Bu arada {\c&H5A5FE7&}gördüğünüzden{\c&HFFFFFF&}\Nberi iki aydır
+Dialogue: 1,0:01:20.59,0:01:20.85,Altyazi,,0,0,0,,Bu arada gördüğünüzden\N{\c&H5A5FE7&}beri{\c&HFFFFFF&} iki aydır
+Dialogue: 1,0:01:20.85,0:01:21.05,Altyazi,,0,0,0,,Bu arada gördüğünüzden\Nberi {\c&H5A5FE7&}iki{\c&HFFFFFF&} aydır
+Dialogue: 1,0:01:21.05,0:01:21.45,Altyazi,,0,0,0,,Bu arada gördüğünüzden\Nberi iki {\c&H5A5FE7&}aydır{\c&HFFFFFF&}
+Dialogue: 0,0:01:21.45,0:01:23.53,ChipMisafir,,0,0,0,, Gizem Hanım 
+Dialogue: 1,0:01:21.45,0:01:21.79,Altyazi,,0,0,0,,{\c&H5A5FE7&}döner{\c&HFFFFFF&} yemediğimizi\Nde söyleyelim bence.
+Dialogue: 1,0:01:21.79,0:01:22.41,Altyazi,,0,0,0,,döner {\c&H5A5FE7&}yemediğimizi{\c&HFFFFFF&}\Nde söyleyelim bence.
+Dialogue: 1,0:01:22.41,0:01:22.53,Altyazi,,0,0,0,,döner yemediğimizi\N{\c&H5A5FE7&}de{\c&HFFFFFF&} söyleyelim bence.
+Dialogue: 1,0:01:22.53,0:01:23.13,Altyazi,,0,0,0,,döner yemediğimizi\Nde {\c&H5A5FE7&}söyleyelim{\c&HFFFFFF&} bence.
+Dialogue: 1,0:01:23.13,0:01:23.53,Altyazi,,0,0,0,,döner yemediğimizi\Nde söyleyelim {\c&H5A5FE7&}bence.{\c&HFFFFFF&}
+Dialogue: 0,0:01:24.85,0:01:25.53,ChipMisafir,,0,0,0,, Gizem Hanım 
+Dialogue: 1,0:01:24.85,0:01:25.25,Altyazi,,0,0,0,,{\c&H5A5FE7&}Bayağıdır{\c&HFFFFFF&} geleceğiz.
+Dialogue: 1,0:01:25.25,0:01:25.53,Altyazi,,0,0,0,,Bayağıdır {\c&H5A5FE7&}geleceğiz.{\c&HFFFFFF&}
+Dialogue: 0,0:01:25.55,0:01:26.33,ChipMisafir,,0,0,0,, Gizem Hanım 
+Dialogue: 1,0:01:25.55,0:01:25.67,Altyazi,,0,0,0,,{\c&H5A5FE7&}Bir{\c&HFFFFFF&} türlü gelememiştik.
+Dialogue: 1,0:01:25.67,0:01:25.81,Altyazi,,0,0,0,,Bir {\c&H5A5FE7&}türlü{\c&HFFFFFF&} gelememiştik.
+Dialogue: 1,0:01:25.81,0:01:26.33,Altyazi,,0,0,0,,Bir türlü {\c&H5A5FE7&}gelememiştik.{\c&HFFFFFF&}
+Dialogue: 0,0:01:26.33,0:01:26.81,ChipMisafir,,0,0,0,, Gizem Hanım 
+Dialogue: 1,0:01:26.33,0:01:26.49,Altyazi,,0,0,0,,{\c&H5A5FE7&}Bugün{\c&HFFFFFF&} en azından.
+Dialogue: 1,0:01:26.49,0:01:26.61,Altyazi,,0,0,0,,Bugün {\c&H5A5FE7&}en{\c&HFFFFFF&} azından.
+Dialogue: 1,0:01:26.61,0:01:26.81,Altyazi,,0,0,0,,Bugün en {\c&H5A5FE7&}azından.{\c&HFFFFFF&}
+Dialogue: 0,0:01:26.99,0:01:27.85,ChipHost,,0,0,0,, Volkan Usta 
+Dialogue: 1,0:01:26.99,0:01:27.37,Altyazi,,0,0,0,,{\c&H0EAFF5&}Çok{\c&HFFFFFF&} sağ olun.
+Dialogue: 1,0:01:27.37,0:01:27.65,Altyazi,,0,0,0,,Çok {\c&H0EAFF5&}sağ{\c&HFFFFFF&} olun.
+Dialogue: 1,0:01:27.65,0:01:27.85,Altyazi,,0,0,0,,Çok sağ {\c&H0EAFF5&}olun.{\c&HFFFFFF&}
+Dialogue: 0,0:01:27.91,0:01:28.47,ChipHost,,0,0,0,, Volkan Usta 
+Dialogue: 1,0:01:27.91,0:01:28.31,Altyazi,,0,0,0,,{\c&H0EAFF5&}Ayağınıza{\c&HFFFFFF&} sağlık.
+Dialogue: 1,0:01:28.31,0:01:28.47,Altyazi,,0,0,0,,Ayağınıza {\c&H0EAFF5&}sağlık.{\c&HFFFFFF&}
+Dialogue: 0,0:01:28.47,0:01:29.15,ChipMisafir2,,0,0,0,, Görkem Bey 
+Dialogue: 1,0:01:28.47,0:01:28.52,Altyazi,,0,0,0,,{\c&H8B4FD6&}Biz{\c&HFFFFFF&} teşekkür ederiz abi.
+Dialogue: 1,0:01:28.47,0:01:28.65,Altyazi,,0,0,0,,Biz {\c&H8B4FD6&}teşekkür{\c&HFFFFFF&} ederiz abi.
+Dialogue: 1,0:01:28.65,0:01:29.05,Altyazi,,0,0,0,,Biz teşekkür {\c&H8B4FD6&}ederiz{\c&HFFFFFF&} abi.
+Dialogue: 1,0:01:29.05,0:01:29.15,Altyazi,,0,0,0,,Biz teşekkür ederiz {\c&H8B4FD6&}abi.{\c&HFFFFFF&}
+Dialogue: 0,0:01:29.15,0:01:30.07,ChipMisafir,,0,0,0,, Gizem Hanım 
+Dialogue: 1,0:01:29.15,0:01:29.39,Altyazi,,0,0,0,,{\c&H5A5FE7&}Çok{\c&HFFFFFF&} çok teşekkür\Nediyorum.
+Dialogue: 1,0:01:29.39,0:01:29.44,Altyazi,,0,0,0,,Çok {\c&H5A5FE7&}çok{\c&HFFFFFF&} teşekkür\Nediyorum.
+Dialogue: 1,0:01:29.43,0:01:29.67,Altyazi,,0,0,0,,Çok çok {\c&H5A5FE7&}teşekkür{\c&HFFFFFF&}\Nediyorum.
+Dialogue: 1,0:01:29.67,0:01:30.07,Altyazi,,0,0,0,,Çok çok teşekkür\N{\c&H5A5FE7&}ediyorum.{\c&HFFFFFF&}
+Dialogue: 0,0:01:30.25,0:01:31.35,ChipHost,,0,0,0,, Volkan Usta 
+Dialogue: 1,0:01:30.25,0:01:30.45,Altyazi,,0,0,0,,{\c&H0EAFF5&}Her{\c&HFFFFFF&} zaman için\Nde bekliyorum.
+Dialogue: 1,0:01:30.45,0:01:30.65,Altyazi,,0,0,0,,Her {\c&H0EAFF5&}zaman{\c&HFFFFFF&} için\Nde bekliyorum.
+Dialogue: 1,0:01:30.65,0:01:30.81,Altyazi,,0,0,0,,Her zaman {\c&H0EAFF5&}için{\c&HFFFFFF&}\Nde bekliyorum.
+Dialogue: 1,0:01:30.81,0:01:30.93,Altyazi,,0,0,0,,Her zaman için\N{\c&H0EAFF5&}de{\c&HFFFFFF&} bekliyorum.
+Dialogue: 1,0:01:30.93,0:01:31.35,Altyazi,,0,0,0,,Her zaman için\Nde {\c&H0EAFF5&}bekliyorum.{\c&HFFFFFF&}
+Dialogue: 0,0:01:31.73,0:01:32.77,ChipMisafir2,,0,0,0,, Görkem Bey 
+Dialogue: 1,0:01:31.73,0:01:32.13,Altyazi,,0,0,0,,{\c&H8B4FD6&}Çok{\c&HFFFFFF&} sağ olasın.
+Dialogue: 1,0:01:32.13,0:01:32.37,Altyazi,,0,0,0,,Çok {\c&H8B4FD6&}sağ{\c&HFFFFFF&} olasın.
+Dialogue: 1,0:01:32.37,0:01:32.77,Altyazi,,0,0,0,,Çok sağ {\c&H8B4FD6&}olasın.{\c&HFFFFFF&}
