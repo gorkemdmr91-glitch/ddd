@@ -8,19 +8,30 @@ from PIL import ImageFont
 
 W, H = 1080, 1920
 FONT = "/usr/share/fonts/opentype/inter/Inter-ExtraBold.otf"
-SIZE = 56
-CHIP_SIZE = 30
-CHIP_PAD = r"\h\h\h\h\h\h\h\h\h"   # chip yatay dolgusu
-MAX_LINE_PX = 900          # referans satır genişliği ~890px
+
+# DİKKAT: ASS'in Fontsize'ı FreeType/PIL puntosuyla aynı şey değil.
+# libass aynı sayıda gözle görülür biçimde daha küçük basar.
+# Bu yüzden iki ayrı değer tutuluyor:
+#   OLCU_SIZE  -> satır sarma hesabı için PIL'e verilen punto
+#   ASS_SIZE   -> .ass stil dosyasına yazılan Fontsize
+# İkisi de referans render'ı ölçülerek eşitlendi (satır genişliği 594px @720).
+OLCU_SIZE = 56
+ASS_SIZE = 69
+
+CHIP_SIZE = 44
+CHIP_PAD = r"\h\h\h"   # chip yatay dolgusu
+MAX_LINE_PX = 900          # referans satır genişliği ~890px @1080
 MAX_WORDS = 7              # ekran başına kelime üst sınırı
 MAX_GAP = 0.65             # bu kadar sessizlikten sonra yeni ekran
 MIN_CHUNK_DUR = 0.45
 
 # Referansta altyazı bloğu YUKARIDAN sabit: ilk satır kaç satır olursa olsun
-# hep aynı yerde duruyor, blok aşağı doğru büyüyor. Bu yüzden her satır
-# kendi Dialogue'u olarak, kendi MarginV'siyle yazılıyor (stil: Alignment 8).
-SATIR1_V = 1223            # ilk satırın üst kenar payı (ölçümle ayarlandı)
-SATIR_ADIM = 92            # satır aralığı @1080 (referans: 61px @720)
+# hep aynı yerde duruyor, blok aşağı doğru büyüyor.
+# Konumlandırma \pos ile yapılıyor, MarginV ile DEĞİL: libass üst üste binen
+# altyazıları otomatik aşağı itiyor ve MarginV'yi eziyor. \pos bunu kapatır.
+SATIR1_Y = 1223            # ilk satırın üst noktası @1080 (Alignment 8)
+SATIR_ADIM = 78            # satır aralığı @1080 (referans: 55px @720)
+CHIP_X, CHIP_Y = 72, 1156  # chip sol-üst noktası @1080 (Alignment 7)
 
 SPEAKERS = {
     "host":    {"style": "ChipHost",    "hi": "&H0EAFF5&", "label": "Volkan Usta"},
@@ -28,7 +39,7 @@ SPEAKERS = {
     "misafir2":{"style": "ChipMisafir2","hi": "&H8B4FD6&", "label": "Görkem Bey"},
 }
 
-font = ImageFont.truetype(FONT, SIZE)
+font = ImageFont.truetype(FONT, OLCU_SIZE)
 
 
 def px(text):
@@ -137,7 +148,8 @@ def main(tr_path, sp_path, out_path):
         sp = SPEAKERS[ch[0]["_who"]]
         # \h = ASS sert boşluk; chip'in yatay dolgusunu büyütmek için
         etiket = CHIP_PAD + sp["label"] + CHIP_PAD
-        ev.append(f"Dialogue: 0,{ts(start)},{ts(end)},{sp['style']},,0,0,0,,{etiket}")
+        ev.append(f"Dialogue: 0,{ts(start)},{ts(end)},{sp['style']},,0,0,0,,"
+                  f"{{\\pos({CHIP_X},{CHIP_Y})}}{etiket}")
         for i, w in enumerate(ch):
             a = w["s"] if i else start
             b = ch[i + 1]["s"] if i + 1 < len(ch) else end
@@ -145,8 +157,9 @@ def main(tr_path, sp_path, out_path):
                 b = a + 0.05
             # her satır kendi Dialogue'u: MarginV ile yukarıdan sabitlenir
             for j, satir in enumerate(render(ch, i, lines)):
-                mv = SATIR1_V + j * SATIR_ADIM
-                ev.append(f"Dialogue: 1,{ts(a)},{ts(b)},Altyazi,,0,0,{mv},,{satir}")
+                y = SATIR1_Y + j * SATIR_ADIM
+                ev.append(f"Dialogue: 1,{ts(a)},{ts(b)},Altyazi,,0,0,0,,"
+                          f"{{\\pos(540,{y})}}{satir}")
 
     open(out_path, "w", encoding="utf-8").write(header + "\n".join(ev) + "\n")
     print(f"{out_path}: {len(words)} kelime, {len(ev)} dialogue satırı")

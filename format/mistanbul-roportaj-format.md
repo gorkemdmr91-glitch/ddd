@@ -68,8 +68,12 @@ Altyazıyı alttan sabitlersen tek satırlık metinler iki satırlığın ikinci
 satırının yerine oturur ve altyazı sürekli zıplar. Formatın en kolay
 kaçırılan detayı bu.
 
-ASS'te: `Alignment 8` (üst-orta) + her satır kendi Dialogue'u, MarginV =
-`1223 + satır_no × 92`.
+ASS'te: `Alignment 8` (üst-orta) + her satır kendi Dialogue'u,
+`{\pos(540, 1223 + satır_no × 78)}`.
+
+**MarginV kullanma, `\pos` kullan.** libass üst üste binen altyazıları
+otomatik aşağı itiyor (collision detection) ve MarginV'yi eziyor —
+ikinci satır verdiğin yere gitmiyor. `\pos` bu davranışı kapatır.
 
 ### Tipografi — ölçümle doğrulandı
 
@@ -81,20 +85,44 @@ Referanstan ölçülen üç bağımsız değer:
 | Gövde (stem) kalınlığı | 9 px |
 | "Her gün üç kişiye ücretsiz tadım" satır genişliği | 890 px |
 
-Üçünü birden tutturan font: **Inter ExtraBold, 56 punto** (cap 41,
-gövde 10, satır 885 — sapma %1'in altında).
+Font: **Inter ExtraBold**.
 
-> **Montserrat değil.** İlk analizde Montserrat sanılmıştı; aynı cap
-> yüksekliğinde satır genişliği %12–16 şaşıyor, yani Montserrat belirgin
-> şekilde daha geniş. Poppins de değil (tek katlı 'a', referansta çift katlı).
+> **Montserrat değil.** Aynı cap yüksekliğinde satır genişliği %12–16
+> şaşıyor, yani Montserrat belirgin şekilde daha geniş. Poppins de değil
+> (tek katlı 'a', referansta çift katlı).
+
+### ASS Fontsize ≠ punto — tuzak
+
+libass'in `Fontsize` değeri FreeType/PIL puntosuyla aynı şey değil; aynı
+sayıyı verdiğinde belirgin şekilde daha küçük basıyor. Inter ExtraBold için:
+
+| Ölçüm yöntemi | Değer |
+|---|---|
+| PIL punto (satır sarma hesabı için) | 56 |
+| ASS `Fontsize` (stil dosyasına yazılan) | **69** |
+
+İkisi de aynı görsel boyutu verir. Boyutu PIL'le hesaplayıp ASS'e aynen
+yazarsan **%18 küçük** çıkar. Kalibrasyon her zaman render çıktısı
+ölçülerek yapılmalı, font metriğinden hesaplanarak değil.
 
 - Renk: beyaz `#FFFFFF`
 - Arka plan: siyah `#151215`, ~%75 opaklık (ASS alpha `40`),
   **yuvarlatılmış köşe**, her satırın kendi kutusu var
-- Kutu dolgusu: ASS `Outline 13`. Referansta yatay dolgu dikeyden fazla;
-  ASS simetrik dolgu verdiği için dikey eşleşmesi öncelendi.
-- Chip: Inter ExtraBold 30, `Outline 5`, yatay dolgu `\h` ile genişletilir
-  (9 adet her iki yana) — aynı asimetri sorunu
+- Kutu dolgusu: ASS `Outline 13`
+
+### Chip (konuşmacı etiketi) — ölçülen değerler
+
+| | Referans @720 | Kullanılan ASS ayarı |
+|---|---|---|
+| Kutu | y768–805, x44–220 | `\pos(72,1156)`, Alignment 7 |
+| İçindeki yazı | yük. 19, gen. 144 | Inter ExtraBold **44**, `Outline 5` |
+| Yatay dolgu | sol 16, sağ 17 | `\h` × 3 her iki yana |
+
+### Bu yöntemle kapatılamayan tek fark
+
+Referansta kutu köşeleri yuvarlatılmış; libass yuvarlatma desteklemiyor,
+kutular köşeli çıkıyor. Diğer her ölçü 1–2 piksel içinde eşleşiyor.
+Birebir köşe istenirse CapCut gerekir.
 
 ### Kelime Vurgusu (karaoke)
 
