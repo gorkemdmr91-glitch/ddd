@@ -54,6 +54,7 @@ Format referansı: `format/mistanbul-roportaj-format.md`
 | 82.29 | "gördüğünüzden" | "gördüğümüzden" | ASR hatası (kullanıcı doğruladı) |
 | 93.35 | "Erdoğan için de bekliyorum" | "Her zaman için de bekliyorum" | Açık ASR hatası; referans videoda da "Her zaman için de beklerim" geçiyor |
 | 57.07–57.83 | "Bunları kararlı tutuyoruz. Tabii ki siz vereceksiniz" | "Bunların kararını tabii ki siz vereceksiniz" | "tutuyoruz." ASR güveni 0.447 ve süresi 0.06 sn — uydurma kelime, silindi |
+| 87.95–89.91 | "Bayağıdır geleceğiz. Bir türlü gelememiştik. Bugün en azından." | "Bayadır geleceğiz, bir türlü gelememiştik. Bugüne nasip oldu." | "en" ASR güveni 0.103 — cümle sonu yanlış çözülmüş |
 
 ## Altyazı stili — v2'de düzeltildi
 
@@ -87,6 +88,11 @@ Montserrat aynı cap yüksekliğinde %12–16 geniş kalıyor; Inter ExtraBold 5
    - "Çok çok teşekkür ediyorum." → Gizem Hanım
    - "Her zaman için de bekliyorum." → Volkan Usta
    - "Çok sağ olasın." → Görkem Bey
+
+   Not: "Bayadır geleceğiz, bir türlü gelememiştik. Bugüne nasip oldu."
+   bölümü (87.95–90.09 ham) önce Gizem Hanım'a atanmıştı, Görkem Bey'e
+   alındı. O anda kameranın önünden biri geçtiği için görüntüden
+   doğrulanamıyordu.
 
    Yanlışsa `konusmacilar.json` içindeki aralıkları düzeltip `make_ass.py`
    tekrar çalıştırılır.

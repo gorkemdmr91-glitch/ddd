@@ -15,6 +15,13 @@ DUZELTME = [
     (57.31, "kararlı",    "kararını"),
     (57.75, "tutuyoruz.", ""),
     (57.83, "Tabii",      "tabii"),
+    # "Bugün en azından." -> "Bugüne nasip oldu."  ("en" ASR güveni 0.103)
+    (87.95, "Bayağıdır",     "Bayadır"),
+    (88.35, "geleceğiz.",    "geleceğiz,"),
+    (88.65, "Bir",           "bir"),
+    (89.43, "Bugün",         "Bugüne"),
+    (89.59, "en",            "nasip"),
+    (89.71, "azından.",      "oldu."),
 ]
 
 segs = json.load(open("transkript.json", encoding="utf-8"))

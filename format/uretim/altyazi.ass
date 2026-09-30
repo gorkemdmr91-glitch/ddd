@@ -338,17 +338,21 @@ Dialogue: 1,0:01:22.53,0:01:23.13,Altyazi,,0,0,0,,{\pos(540,1223)}döner yemedi�
 Dialogue: 1,0:01:22.53,0:01:23.13,Altyazi,,0,0,0,,{\pos(540,1311)}de {\c&H5A5FE7&}söyleyelim{\c&HFFFFFF&} bence.
 Dialogue: 1,0:01:23.13,0:01:23.53,Altyazi,,0,0,0,,{\pos(540,1223)}döner yemediğimizi
 Dialogue: 1,0:01:23.13,0:01:23.53,Altyazi,,0,0,0,,{\pos(540,1311)}de söyleyelim {\c&H5A5FE7&}bence.{\c&HFFFFFF&}
-Dialogue: 0,0:01:24.85,0:01:25.53,ChipMisafir,,0,0,0,,{\pos(234,1162)}\h\h\hGizem Hanım\h\h\h
-Dialogue: 1,0:01:24.85,0:01:25.25,Altyazi,,0,0,0,,{\pos(540,1223)}{\c&H5A5FE7&}Bayağıdır{\c&HFFFFFF&} geleceğiz.
-Dialogue: 1,0:01:25.25,0:01:25.53,Altyazi,,0,0,0,,{\pos(540,1223)}Bayağıdır {\c&H5A5FE7&}geleceğiz.{\c&HFFFFFF&}
-Dialogue: 0,0:01:25.55,0:01:26.33,ChipMisafir,,0,0,0,,{\pos(202,1162)}\h\h\hGizem Hanım\h\h\h
-Dialogue: 1,0:01:25.55,0:01:25.67,Altyazi,,0,0,0,,{\pos(540,1223)}{\c&H5A5FE7&}Bir{\c&HFFFFFF&} türlü gelememiştik.
-Dialogue: 1,0:01:25.67,0:01:25.81,Altyazi,,0,0,0,,{\pos(540,1223)}Bir {\c&H5A5FE7&}türlü{\c&HFFFFFF&} gelememiştik.
-Dialogue: 1,0:01:25.81,0:01:26.33,Altyazi,,0,0,0,,{\pos(540,1223)}Bir türlü {\c&H5A5FE7&}gelememiştik.{\c&HFFFFFF&}
-Dialogue: 0,0:01:26.33,0:01:26.81,ChipMisafir,,0,0,0,,{\pos(259,1162)}\h\h\hGizem Hanım\h\h\h
-Dialogue: 1,0:01:26.33,0:01:26.49,Altyazi,,0,0,0,,{\pos(540,1223)}{\c&H5A5FE7&}Bugün{\c&HFFFFFF&} en azından.
-Dialogue: 1,0:01:26.49,0:01:26.61,Altyazi,,0,0,0,,{\pos(540,1223)}Bugün {\c&H5A5FE7&}en{\c&HFFFFFF&} azından.
-Dialogue: 1,0:01:26.61,0:01:26.81,Altyazi,,0,0,0,,{\pos(540,1223)}Bugün en {\c&H5A5FE7&}azından.{\c&HFFFFFF&}
+Dialogue: 0,0:01:24.85,0:01:26.33,ChipMisafir2,,0,0,0,,{\pos(260,1162)}\h\h\hGörkem Bey\h\h\h
+Dialogue: 1,0:01:24.85,0:01:25.25,Altyazi,,0,0,0,,{\pos(540,1223)}{\c&HDC962D&}Bayadır{\c&HFFFFFF&} geleceğiz,
+Dialogue: 1,0:01:24.85,0:01:25.25,Altyazi,,0,0,0,,{\pos(540,1311)}bir türlü gelememiştik.
+Dialogue: 1,0:01:25.25,0:01:25.55,Altyazi,,0,0,0,,{\pos(540,1223)}Bayadır {\c&HDC962D&}geleceğiz,{\c&HFFFFFF&}
+Dialogue: 1,0:01:25.25,0:01:25.55,Altyazi,,0,0,0,,{\pos(540,1311)}bir türlü gelememiştik.
+Dialogue: 1,0:01:25.55,0:01:25.67,Altyazi,,0,0,0,,{\pos(540,1223)}Bayadır geleceğiz,
+Dialogue: 1,0:01:25.55,0:01:25.67,Altyazi,,0,0,0,,{\pos(540,1311)}{\c&HDC962D&}bir{\c&HFFFFFF&} türlü gelememiştik.
+Dialogue: 1,0:01:25.67,0:01:25.81,Altyazi,,0,0,0,,{\pos(540,1223)}Bayadır geleceğiz,
+Dialogue: 1,0:01:25.67,0:01:25.81,Altyazi,,0,0,0,,{\pos(540,1311)}bir {\c&HDC962D&}türlü{\c&HFFFFFF&} gelememiştik.
+Dialogue: 1,0:01:25.81,0:01:26.33,Altyazi,,0,0,0,,{\pos(540,1223)}Bayadır geleceğiz,
+Dialogue: 1,0:01:25.81,0:01:26.33,Altyazi,,0,0,0,,{\pos(540,1311)}bir türlü {\c&HDC962D&}gelememiştik.{\c&HFFFFFF&}
+Dialogue: 0,0:01:26.33,0:01:26.81,ChipMisafir2,,0,0,0,,{\pos(250,1162)}\h\h\hGörkem Bey\h\h\h
+Dialogue: 1,0:01:26.33,0:01:26.49,Altyazi,,0,0,0,,{\pos(540,1223)}{\c&HDC962D&}Bugüne{\c&HFFFFFF&} nasip oldu.
+Dialogue: 1,0:01:26.49,0:01:26.61,Altyazi,,0,0,0,,{\pos(540,1223)}Bugüne {\c&HDC962D&}nasip{\c&HFFFFFF&} oldu.
+Dialogue: 1,0:01:26.61,0:01:26.81,Altyazi,,0,0,0,,{\pos(540,1223)}Bugüne nasip {\c&HDC962D&}oldu.{\c&HFFFFFF&}
 Dialogue: 0,0:01:26.99,0:01:27.85,ChipHost,,0,0,0,,{\pos(328,1162)}\h\h\hVolkan Usta\h\h\h
 Dialogue: 1,0:01:26.99,0:01:27.37,Altyazi,,0,0,0,,{\pos(540,1223)}{\c&H0EAFF5&}Çok{\c&HFFFFFF&} sağ olun.
 Dialogue: 1,0:01:27.37,0:01:27.65,Altyazi,,0,0,0,,{\pos(540,1223)}Çok {\c&H0EAFF5&}sağ{\c&HFFFFFF&} olun.

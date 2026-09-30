@@ -24,6 +24,7 @@ MAX_LINE_PX = 1000          # referans satır genişliği ~890px @1080
 MAX_WORDS = 8              # ekran başına kelime üst sınırı
 MAX_GAP = 0.65             # bu kadar sessizlikten sonra yeni ekran
 MIN_CHUNK_DUR = 0.45
+NOKTALAMA_BONUSU = 220     # satır kırarken noktalama sonrasını tercih etme ağırlığı
 
 # Referansta altyazı bloğu YUKARIDAN sabit: ilk satır kaç satır olursa olsun
 # hep aynı yerde duruyor, blok aşağı doğru büyüyor.
@@ -107,6 +108,10 @@ def wrap(words):
         if wa > MAX_LINE_PX or wb > MAX_LINE_PX:
             continue
         cost = abs(wa - wb)
+        # noktalama sonrası bölmeyi tercih et: "geleceğiz, bir / türlü" yerine
+        # "geleceğiz, / bir türlü gelememiştik." daha doğal okunuyor
+        if texts[cut - 1].endswith((",", ".", "!", "?", ":", ";")):
+            cost -= NOKTALAMA_BONUSU
         if best_cost is None or cost < best_cost:
             best, best_cost = cut, cost
     if best is None:                       # sığmıyorsa en az taşan bölmeyi al
