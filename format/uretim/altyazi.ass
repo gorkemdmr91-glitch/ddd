@@ -11,7 +11,7 @@ YCbCr Matrix: TV.709
 
 [V4+ Styles]
 Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
-Style: Altyazi,Inter ExtraBold,69,&H00FFFFFF,&H00FFFFFF,&H40151215,&H00000000,0,0,0,0,100,100,0,0,3,13,0,8,90,90,1223,1
+Style: Altyazi,Inter ExtraBold,69,&H00FFFFFF,&H00FFFFFF,&H20151215,&H00000000,0,0,0,0,100,100,0,0,3,13,0,8,90,90,1223,1
 Style: ChipHost,Inter ExtraBold,44,&H00000000,&H00000000,&H000EAFF5,&H00000000,0,0,0,0,100,100,0,0,3,5,0,7,72,90,1168,1
 Style: ChipMisafir,Inter ExtraBold,44,&H00FFFFFF,&H00FFFFFF,&H005A5FE7,&H00000000,0,0,0,0,100,100,0,0,3,5,0,7,72,90,1168,1
 Style: ChipMisafir2,Inter ExtraBold,44,&H00FFFFFF,&H00FFFFFF,&H00D64F8B,&H00000000,0,0,0,0,100,100,0,0,3,5,0,7,72,90,1168,1
@@ -23,39 +23,39 @@ Dialogue: 1,0:00:00.79,0:00:01.47,Altyazi,,0,0,0,,{\pos(540,1223)}{\c&H0EAFF5&}H
 Dialogue: 1,0:00:01.47,0:00:02.03,Altyazi,,0,0,0,,{\pos(540,1223)}Herkese {\c&H0EAFF5&}merhabalar.{\c&HFFFFFF&}
 Dialogue: 0,0:00:02.03,0:00:03.95,ChipHost,,0,0,0,,{\pos(72,1156)}\h\h\hVolkan Usta\h\h\h
 Dialogue: 1,0:00:02.03,0:00:02.21,Altyazi,,0,0,0,,{\pos(540,1223)}{\c&H0EAFF5&}Her{\c&HFFFFFF&} gün üç kişiye
-Dialogue: 1,0:00:02.03,0:00:02.21,Altyazi,,0,0,0,,{\pos(540,1301)}tadım kampanyamızla
+Dialogue: 1,0:00:02.03,0:00:02.21,Altyazi,,0,0,0,,{\pos(540,1311)}tadım kampanyamızla
 Dialogue: 1,0:00:02.21,0:00:02.45,Altyazi,,0,0,0,,{\pos(540,1223)}Her {\c&H0EAFF5&}gün{\c&HFFFFFF&} üç kişiye
-Dialogue: 1,0:00:02.21,0:00:02.45,Altyazi,,0,0,0,,{\pos(540,1301)}tadım kampanyamızla
+Dialogue: 1,0:00:02.21,0:00:02.45,Altyazi,,0,0,0,,{\pos(540,1311)}tadım kampanyamızla
 Dialogue: 1,0:00:02.45,0:00:02.63,Altyazi,,0,0,0,,{\pos(540,1223)}Her gün {\c&H0EAFF5&}üç{\c&HFFFFFF&} kişiye
-Dialogue: 1,0:00:02.45,0:00:02.63,Altyazi,,0,0,0,,{\pos(540,1301)}tadım kampanyamızla
+Dialogue: 1,0:00:02.45,0:00:02.63,Altyazi,,0,0,0,,{\pos(540,1311)}tadım kampanyamızla
 Dialogue: 1,0:00:02.63,0:00:02.95,Altyazi,,0,0,0,,{\pos(540,1223)}Her gün üç {\c&H0EAFF5&}kişiye{\c&HFFFFFF&}
-Dialogue: 1,0:00:02.63,0:00:02.95,Altyazi,,0,0,0,,{\pos(540,1301)}tadım kampanyamızla
+Dialogue: 1,0:00:02.63,0:00:02.95,Altyazi,,0,0,0,,{\pos(540,1311)}tadım kampanyamızla
 Dialogue: 1,0:00:02.95,0:00:03.23,Altyazi,,0,0,0,,{\pos(540,1223)}Her gün üç kişiye
-Dialogue: 1,0:00:02.95,0:00:03.23,Altyazi,,0,0,0,,{\pos(540,1301)}{\c&H0EAFF5&}tadım{\c&HFFFFFF&} kampanyamızla
+Dialogue: 1,0:00:02.95,0:00:03.23,Altyazi,,0,0,0,,{\pos(540,1311)}{\c&H0EAFF5&}tadım{\c&HFFFFFF&} kampanyamızla
 Dialogue: 1,0:00:03.23,0:00:03.95,Altyazi,,0,0,0,,{\pos(540,1223)}Her gün üç kişiye
-Dialogue: 1,0:00:03.23,0:00:03.95,Altyazi,,0,0,0,,{\pos(540,1301)}tadım {\c&H0EAFF5&}kampanyamızla{\c&HFFFFFF&}
+Dialogue: 1,0:00:03.23,0:00:03.95,Altyazi,,0,0,0,,{\pos(540,1311)}tadım {\c&H0EAFF5&}kampanyamızla{\c&HFFFFFF&}
 Dialogue: 0,0:00:03.95,0:00:07.19,ChipHost,,0,0,0,,{\pos(72,1156)}\h\h\hVolkan Usta\h\h\h
 Dialogue: 1,0:00:03.95,0:00:04.43,Altyazi,,0,0,0,,{\pos(540,1223)}{\c&H0EAFF5&}alakalı{\c&HFFFFFF&} Gizem ve Görkem
-Dialogue: 1,0:00:03.95,0:00:04.43,Altyazi,,0,0,0,,{\pos(540,1301)}bugünkü misafirlerimiz.
+Dialogue: 1,0:00:03.95,0:00:04.43,Altyazi,,0,0,0,,{\pos(540,1311)}bugünkü misafirlerimiz.
 Dialogue: 1,0:00:04.43,0:00:05.35,Altyazi,,0,0,0,,{\pos(540,1223)}alakalı {\c&H0EAFF5&}Gizem{\c&HFFFFFF&} ve Görkem
-Dialogue: 1,0:00:04.43,0:00:05.35,Altyazi,,0,0,0,,{\pos(540,1301)}bugünkü misafirlerimiz.
+Dialogue: 1,0:00:04.43,0:00:05.35,Altyazi,,0,0,0,,{\pos(540,1311)}bugünkü misafirlerimiz.
 Dialogue: 1,0:00:05.35,0:00:05.53,Altyazi,,0,0,0,,{\pos(540,1223)}alakalı Gizem {\c&H0EAFF5&}ve{\c&HFFFFFF&} Görkem
-Dialogue: 1,0:00:05.35,0:00:05.53,Altyazi,,0,0,0,,{\pos(540,1301)}bugünkü misafirlerimiz.
+Dialogue: 1,0:00:05.35,0:00:05.53,Altyazi,,0,0,0,,{\pos(540,1311)}bugünkü misafirlerimiz.
 Dialogue: 1,0:00:05.53,0:00:06.09,Altyazi,,0,0,0,,{\pos(540,1223)}alakalı Gizem ve {\c&H0EAFF5&}Görkem{\c&HFFFFFF&}
-Dialogue: 1,0:00:05.53,0:00:06.09,Altyazi,,0,0,0,,{\pos(540,1301)}bugünkü misafirlerimiz.
+Dialogue: 1,0:00:05.53,0:00:06.09,Altyazi,,0,0,0,,{\pos(540,1311)}bugünkü misafirlerimiz.
 Dialogue: 1,0:00:06.09,0:00:06.41,Altyazi,,0,0,0,,{\pos(540,1223)}alakalı Gizem ve Görkem
-Dialogue: 1,0:00:06.09,0:00:06.41,Altyazi,,0,0,0,,{\pos(540,1301)}{\c&H0EAFF5&}bugünkü{\c&HFFFFFF&} misafirlerimiz.
+Dialogue: 1,0:00:06.09,0:00:06.41,Altyazi,,0,0,0,,{\pos(540,1311)}{\c&H0EAFF5&}bugünkü{\c&HFFFFFF&} misafirlerimiz.
 Dialogue: 1,0:00:06.41,0:00:07.19,Altyazi,,0,0,0,,{\pos(540,1223)}alakalı Gizem ve Görkem
-Dialogue: 1,0:00:06.41,0:00:07.19,Altyazi,,0,0,0,,{\pos(540,1301)}bugünkü {\c&H0EAFF5&}misafirlerimiz.{\c&HFFFFFF&}
+Dialogue: 1,0:00:06.41,0:00:07.19,Altyazi,,0,0,0,,{\pos(540,1311)}bugünkü {\c&H0EAFF5&}misafirlerimiz.{\c&HFFFFFF&}
 Dialogue: 0,0:00:07.93,0:00:09.85,ChipHost,,0,0,0,,{\pos(72,1156)}\h\h\hVolkan Usta\h\h\h
 Dialogue: 1,0:00:07.93,0:00:08.61,Altyazi,,0,0,0,,{\pos(540,1223)}{\c&H0EAFF5&}Dönerimizi{\c&HFFFFFF&} tattılar,
-Dialogue: 1,0:00:07.93,0:00:08.61,Altyazi,,0,0,0,,{\pos(540,1301)}yemeğimizi yedik.
+Dialogue: 1,0:00:07.93,0:00:08.61,Altyazi,,0,0,0,,{\pos(540,1311)}yemeğimizi yedik.
 Dialogue: 1,0:00:08.61,0:00:09.17,Altyazi,,0,0,0,,{\pos(540,1223)}Dönerimizi {\c&H0EAFF5&}tattılar,{\c&HFFFFFF&}
-Dialogue: 1,0:00:08.61,0:00:09.17,Altyazi,,0,0,0,,{\pos(540,1301)}yemeğimizi yedik.
+Dialogue: 1,0:00:08.61,0:00:09.17,Altyazi,,0,0,0,,{\pos(540,1311)}yemeğimizi yedik.
 Dialogue: 1,0:00:09.17,0:00:09.63,Altyazi,,0,0,0,,{\pos(540,1223)}Dönerimizi tattılar,
-Dialogue: 1,0:00:09.17,0:00:09.63,Altyazi,,0,0,0,,{\pos(540,1301)}{\c&H0EAFF5&}yemeğimizi{\c&HFFFFFF&} yedik.
+Dialogue: 1,0:00:09.17,0:00:09.63,Altyazi,,0,0,0,,{\pos(540,1311)}{\c&H0EAFF5&}yemeğimizi{\c&HFFFFFF&} yedik.
 Dialogue: 1,0:00:09.63,0:00:09.85,Altyazi,,0,0,0,,{\pos(540,1223)}Dönerimizi tattılar,
-Dialogue: 1,0:00:09.63,0:00:09.85,Altyazi,,0,0,0,,{\pos(540,1301)}yemeğimizi {\c&H0EAFF5&}yedik.{\c&HFFFFFF&}
+Dialogue: 1,0:00:09.63,0:00:09.85,Altyazi,,0,0,0,,{\pos(540,1311)}yemeğimizi {\c&H0EAFF5&}yedik.{\c&HFFFFFF&}
 Dialogue: 0,0:00:09.85,0:00:10.73,ChipHost,,0,0,0,,{\pos(72,1156)}\h\h\hVolkan Usta\h\h\h
 Dialogue: 1,0:00:09.85,0:00:10.01,Altyazi,,0,0,0,,{\pos(540,1223)}{\c&H0EAFF5&}Şimdi{\c&HFFFFFF&} çayımızı içeceğiz.
 Dialogue: 1,0:00:10.01,0:00:10.33,Altyazi,,0,0,0,,{\pos(540,1223)}Şimdi {\c&H0EAFF5&}çayımızı{\c&HFFFFFF&} içeceğiz.
@@ -74,123 +74,120 @@ Dialogue: 1,0:00:14.35,0:00:14.85,Altyazi,,0,0,0,,{\pos(540,1223)}{\c&H0EAFF5&}�
 Dialogue: 1,0:00:14.85,0:00:15.29,Altyazi,,0,0,0,,{\pos(540,1223)}Önce {\c&H0EAFF5&}bayanlar.{\c&HFFFFFF&}
 Dialogue: 0,0:00:16.79,0:00:18.35,ChipMisafir,,0,0,0,,{\pos(72,1156)}\h\h\hGizem Hanım\h\h\h
 Dialogue: 1,0:00:16.79,0:00:17.47,Altyazi,,0,0,0,,{\pos(540,1223)}{\c&H5A5FE7&}Öncelikle{\c&HFFFFFF&} ben şunu
-Dialogue: 1,0:00:16.79,0:00:17.47,Altyazi,,0,0,0,,{\pos(540,1301)}söylemek istiyorum.
+Dialogue: 1,0:00:16.79,0:00:17.47,Altyazi,,0,0,0,,{\pos(540,1311)}söylemek istiyorum.
 Dialogue: 1,0:00:17.47,0:00:17.63,Altyazi,,0,0,0,,{\pos(540,1223)}Öncelikle {\c&H5A5FE7&}ben{\c&HFFFFFF&} şunu
-Dialogue: 1,0:00:17.47,0:00:17.63,Altyazi,,0,0,0,,{\pos(540,1301)}söylemek istiyorum.
+Dialogue: 1,0:00:17.47,0:00:17.63,Altyazi,,0,0,0,,{\pos(540,1311)}söylemek istiyorum.
 Dialogue: 1,0:00:17.63,0:00:17.79,Altyazi,,0,0,0,,{\pos(540,1223)}Öncelikle ben {\c&H5A5FE7&}şunu{\c&HFFFFFF&}
-Dialogue: 1,0:00:17.63,0:00:17.79,Altyazi,,0,0,0,,{\pos(540,1301)}söylemek istiyorum.
+Dialogue: 1,0:00:17.63,0:00:17.79,Altyazi,,0,0,0,,{\pos(540,1311)}söylemek istiyorum.
 Dialogue: 1,0:00:17.79,0:00:18.15,Altyazi,,0,0,0,,{\pos(540,1223)}Öncelikle ben şunu
-Dialogue: 1,0:00:17.79,0:00:18.15,Altyazi,,0,0,0,,{\pos(540,1301)}{\c&H5A5FE7&}söylemek{\c&HFFFFFF&} istiyorum.
+Dialogue: 1,0:00:17.79,0:00:18.15,Altyazi,,0,0,0,,{\pos(540,1311)}{\c&H5A5FE7&}söylemek{\c&HFFFFFF&} istiyorum.
 Dialogue: 1,0:00:18.15,0:00:18.35,Altyazi,,0,0,0,,{\pos(540,1223)}Öncelikle ben şunu
-Dialogue: 1,0:00:18.15,0:00:18.35,Altyazi,,0,0,0,,{\pos(540,1301)}söylemek {\c&H5A5FE7&}istiyorum.{\c&HFFFFFF&}
+Dialogue: 1,0:00:18.15,0:00:18.35,Altyazi,,0,0,0,,{\pos(540,1311)}söylemek {\c&H5A5FE7&}istiyorum.{\c&HFFFFFF&}
 Dialogue: 0,0:00:18.55,0:00:19.47,ChipMisafir,,0,0,0,,{\pos(72,1156)}\h\h\hGizem Hanım\h\h\h
 Dialogue: 1,0:00:18.55,0:00:18.69,Altyazi,,0,0,0,,{\pos(540,1223)}{\c&H5A5FE7&}Ben{\c&HFFFFFF&} Bursalıyım.
 Dialogue: 1,0:00:18.69,0:00:19.47,Altyazi,,0,0,0,,{\pos(540,1223)}Ben {\c&H5A5FE7&}Bursalıyım.{\c&HFFFFFF&}
 Dialogue: 0,0:00:19.81,0:00:22.71,ChipMisafir,,0,0,0,,{\pos(72,1156)}\h\h\hGizem Hanım\h\h\h
 Dialogue: 1,0:00:19.81,0:00:20.49,Altyazi,,0,0,0,,{\pos(540,1223)}{\c&H5A5FE7&}Ve{\c&HFFFFFF&} Bursa'da dönerin
-Dialogue: 1,0:00:19.81,0:00:20.49,Altyazi,,0,0,0,,{\pos(540,1301)}ne kadar önemli
+Dialogue: 1,0:00:19.81,0:00:20.49,Altyazi,,0,0,0,,{\pos(540,1311)}ne kadar önemli
 Dialogue: 1,0:00:20.49,0:00:21.39,Altyazi,,0,0,0,,{\pos(540,1223)}Ve {\c&H5A5FE7&}Bursa'da{\c&HFFFFFF&} dönerin
-Dialogue: 1,0:00:20.49,0:00:21.39,Altyazi,,0,0,0,,{\pos(540,1301)}ne kadar önemli
+Dialogue: 1,0:00:20.49,0:00:21.39,Altyazi,,0,0,0,,{\pos(540,1311)}ne kadar önemli
 Dialogue: 1,0:00:21.39,0:00:21.79,Altyazi,,0,0,0,,{\pos(540,1223)}Ve Bursa'da {\c&H5A5FE7&}dönerin{\c&HFFFFFF&}
-Dialogue: 1,0:00:21.39,0:00:21.79,Altyazi,,0,0,0,,{\pos(540,1301)}ne kadar önemli
+Dialogue: 1,0:00:21.39,0:00:21.79,Altyazi,,0,0,0,,{\pos(540,1311)}ne kadar önemli
 Dialogue: 1,0:00:21.79,0:00:21.93,Altyazi,,0,0,0,,{\pos(540,1223)}Ve Bursa'da dönerin
-Dialogue: 1,0:00:21.79,0:00:21.93,Altyazi,,0,0,0,,{\pos(540,1301)}{\c&H5A5FE7&}ne{\c&HFFFFFF&} kadar önemli
+Dialogue: 1,0:00:21.79,0:00:21.93,Altyazi,,0,0,0,,{\pos(540,1311)}{\c&H5A5FE7&}ne{\c&HFFFFFF&} kadar önemli
 Dialogue: 1,0:00:21.93,0:00:22.19,Altyazi,,0,0,0,,{\pos(540,1223)}Ve Bursa'da dönerin
-Dialogue: 1,0:00:21.93,0:00:22.19,Altyazi,,0,0,0,,{\pos(540,1301)}ne {\c&H5A5FE7&}kadar{\c&HFFFFFF&} önemli
+Dialogue: 1,0:00:21.93,0:00:22.19,Altyazi,,0,0,0,,{\pos(540,1311)}ne {\c&H5A5FE7&}kadar{\c&HFFFFFF&} önemli
 Dialogue: 1,0:00:22.19,0:00:22.71,Altyazi,,0,0,0,,{\pos(540,1223)}Ve Bursa'da dönerin
-Dialogue: 1,0:00:22.19,0:00:22.71,Altyazi,,0,0,0,,{\pos(540,1301)}ne kadar {\c&H5A5FE7&}önemli{\c&HFFFFFF&}
+Dialogue: 1,0:00:22.19,0:00:22.71,Altyazi,,0,0,0,,{\pos(540,1311)}ne kadar {\c&H5A5FE7&}önemli{\c&HFFFFFF&}
 Dialogue: 0,0:00:22.71,0:00:24.63,ChipMisafir,,0,0,0,,{\pos(72,1156)}\h\h\hGizem Hanım\h\h\h
-Dialogue: 1,0:00:22.71,0:00:23.15,Altyazi,,0,0,0,,{\pos(540,1223)}{\c&H5A5FE7&}olduğunu{\c&HFFFFFF&} az buçuk
-Dialogue: 1,0:00:22.71,0:00:23.15,Altyazi,,0,0,0,,{\pos(540,1301)}bilirsiniz zaten.
-Dialogue: 1,0:00:23.15,0:00:23.57,Altyazi,,0,0,0,,{\pos(540,1223)}olduğunu {\c&H5A5FE7&}az{\c&HFFFFFF&} buçuk
-Dialogue: 1,0:00:23.15,0:00:23.57,Altyazi,,0,0,0,,{\pos(540,1301)}bilirsiniz zaten.
-Dialogue: 1,0:00:23.57,0:00:23.87,Altyazi,,0,0,0,,{\pos(540,1223)}olduğunu az {\c&H5A5FE7&}buçuk{\c&HFFFFFF&}
-Dialogue: 1,0:00:23.57,0:00:23.87,Altyazi,,0,0,0,,{\pos(540,1301)}bilirsiniz zaten.
-Dialogue: 1,0:00:23.87,0:00:24.21,Altyazi,,0,0,0,,{\pos(540,1223)}olduğunu az buçuk
-Dialogue: 1,0:00:23.87,0:00:24.21,Altyazi,,0,0,0,,{\pos(540,1301)}{\c&H5A5FE7&}bilirsiniz{\c&HFFFFFF&} zaten.
-Dialogue: 1,0:00:24.21,0:00:24.63,Altyazi,,0,0,0,,{\pos(540,1223)}olduğunu az buçuk
-Dialogue: 1,0:00:24.21,0:00:24.63,Altyazi,,0,0,0,,{\pos(540,1301)}bilirsiniz {\c&H5A5FE7&}zaten.{\c&HFFFFFF&}
+Dialogue: 1,0:00:22.71,0:00:23.15,Altyazi,,0,0,0,,{\pos(540,1223)}{\c&H5A5FE7&}olduğunu{\c&HFFFFFF&} az buçuk bilirsiniz zaten.
+Dialogue: 1,0:00:23.15,0:00:23.57,Altyazi,,0,0,0,,{\pos(540,1223)}olduğunu {\c&H5A5FE7&}az{\c&HFFFFFF&} buçuk bilirsiniz zaten.
+Dialogue: 1,0:00:23.57,0:00:23.87,Altyazi,,0,0,0,,{\pos(540,1223)}olduğunu az {\c&H5A5FE7&}buçuk{\c&HFFFFFF&} bilirsiniz zaten.
+Dialogue: 1,0:00:23.87,0:00:24.21,Altyazi,,0,0,0,,{\pos(540,1223)}olduğunu az buçuk {\c&H5A5FE7&}bilirsiniz{\c&HFFFFFF&} zaten.
+Dialogue: 1,0:00:24.21,0:00:24.63,Altyazi,,0,0,0,,{\pos(540,1223)}olduğunu az buçuk bilirsiniz {\c&H5A5FE7&}zaten.{\c&HFFFFFF&}
 Dialogue: 0,0:00:25.60,0:00:28.02,ChipMisafir,,0,0,0,,{\pos(72,1156)}\h\h\hGizem Hanım\h\h\h
 Dialogue: 1,0:00:25.60,0:00:26.32,Altyazi,,0,0,0,,{\pos(540,1223)}{\c&H5A5FE7&}Gittiğim{\c&HFFFFFF&} her yerde de
-Dialogue: 1,0:00:25.60,0:00:26.32,Altyazi,,0,0,0,,{\pos(540,1301)}sürekli döner yedim.
+Dialogue: 1,0:00:25.60,0:00:26.32,Altyazi,,0,0,0,,{\pos(540,1311)}sürekli döner yedim.
 Dialogue: 1,0:00:26.32,0:00:26.46,Altyazi,,0,0,0,,{\pos(540,1223)}Gittiğim {\c&H5A5FE7&}her{\c&HFFFFFF&} yerde de
-Dialogue: 1,0:00:26.32,0:00:26.46,Altyazi,,0,0,0,,{\pos(540,1301)}sürekli döner yedim.
+Dialogue: 1,0:00:26.32,0:00:26.46,Altyazi,,0,0,0,,{\pos(540,1311)}sürekli döner yedim.
 Dialogue: 1,0:00:26.46,0:00:26.78,Altyazi,,0,0,0,,{\pos(540,1223)}Gittiğim her {\c&H5A5FE7&}yerde{\c&HFFFFFF&} de
-Dialogue: 1,0:00:26.46,0:00:26.78,Altyazi,,0,0,0,,{\pos(540,1301)}sürekli döner yedim.
+Dialogue: 1,0:00:26.46,0:00:26.78,Altyazi,,0,0,0,,{\pos(540,1311)}sürekli döner yedim.
 Dialogue: 1,0:00:26.78,0:00:26.94,Altyazi,,0,0,0,,{\pos(540,1223)}Gittiğim her yerde {\c&H5A5FE7&}de{\c&HFFFFFF&}
-Dialogue: 1,0:00:26.78,0:00:26.94,Altyazi,,0,0,0,,{\pos(540,1301)}sürekli döner yedim.
+Dialogue: 1,0:00:26.78,0:00:26.94,Altyazi,,0,0,0,,{\pos(540,1311)}sürekli döner yedim.
 Dialogue: 1,0:00:26.94,0:00:27.26,Altyazi,,0,0,0,,{\pos(540,1223)}Gittiğim her yerde de
-Dialogue: 1,0:00:26.94,0:00:27.26,Altyazi,,0,0,0,,{\pos(540,1301)}{\c&H5A5FE7&}sürekli{\c&HFFFFFF&} döner yedim.
+Dialogue: 1,0:00:26.94,0:00:27.26,Altyazi,,0,0,0,,{\pos(540,1311)}{\c&H5A5FE7&}sürekli{\c&HFFFFFF&} döner yedim.
 Dialogue: 1,0:00:27.26,0:00:27.66,Altyazi,,0,0,0,,{\pos(540,1223)}Gittiğim her yerde de
-Dialogue: 1,0:00:27.26,0:00:27.66,Altyazi,,0,0,0,,{\pos(540,1301)}sürekli {\c&H5A5FE7&}döner{\c&HFFFFFF&} yedim.
+Dialogue: 1,0:00:27.26,0:00:27.66,Altyazi,,0,0,0,,{\pos(540,1311)}sürekli {\c&H5A5FE7&}döner{\c&HFFFFFF&} yedim.
 Dialogue: 1,0:00:27.66,0:00:28.02,Altyazi,,0,0,0,,{\pos(540,1223)}Gittiğim her yerde de
-Dialogue: 1,0:00:27.66,0:00:28.02,Altyazi,,0,0,0,,{\pos(540,1301)}sürekli döner {\c&H5A5FE7&}yedim.{\c&HFFFFFF&}
+Dialogue: 1,0:00:27.66,0:00:28.02,Altyazi,,0,0,0,,{\pos(540,1311)}sürekli döner {\c&H5A5FE7&}yedim.{\c&HFFFFFF&}
 Dialogue: 0,0:00:28.08,0:00:30.48,ChipMisafir,,0,0,0,,{\pos(72,1156)}\h\h\hGizem Hanım\h\h\h
 Dialogue: 1,0:00:28.08,0:00:28.34,Altyazi,,0,0,0,,{\pos(540,1223)}{\c&H5A5FE7&}Ama{\c&HFFFFFF&} burada ben
-Dialogue: 1,0:00:28.08,0:00:28.34,Altyazi,,0,0,0,,{\pos(540,1301)}farklı bir şey gördüm.
+Dialogue: 1,0:00:28.08,0:00:28.34,Altyazi,,0,0,0,,{\pos(540,1311)}farklı bir şey gördüm.
 Dialogue: 1,0:00:28.34,0:00:28.80,Altyazi,,0,0,0,,{\pos(540,1223)}Ama {\c&H5A5FE7&}burada{\c&HFFFFFF&} ben
-Dialogue: 1,0:00:28.34,0:00:28.80,Altyazi,,0,0,0,,{\pos(540,1301)}farklı bir şey gördüm.
+Dialogue: 1,0:00:28.34,0:00:28.80,Altyazi,,0,0,0,,{\pos(540,1311)}farklı bir şey gördüm.
 Dialogue: 1,0:00:28.80,0:00:29.10,Altyazi,,0,0,0,,{\pos(540,1223)}Ama burada {\c&H5A5FE7&}ben{\c&HFFFFFF&}
-Dialogue: 1,0:00:28.80,0:00:29.10,Altyazi,,0,0,0,,{\pos(540,1301)}farklı bir şey gördüm.
+Dialogue: 1,0:00:28.80,0:00:29.10,Altyazi,,0,0,0,,{\pos(540,1311)}farklı bir şey gördüm.
 Dialogue: 1,0:00:29.10,0:00:29.60,Altyazi,,0,0,0,,{\pos(540,1223)}Ama burada ben
-Dialogue: 1,0:00:29.10,0:00:29.60,Altyazi,,0,0,0,,{\pos(540,1301)}{\c&H5A5FE7&}farklı{\c&HFFFFFF&} bir şey gördüm.
+Dialogue: 1,0:00:29.10,0:00:29.60,Altyazi,,0,0,0,,{\pos(540,1311)}{\c&H5A5FE7&}farklı{\c&HFFFFFF&} bir şey gördüm.
 Dialogue: 1,0:00:29.60,0:00:29.82,Altyazi,,0,0,0,,{\pos(540,1223)}Ama burada ben
-Dialogue: 1,0:00:29.60,0:00:29.82,Altyazi,,0,0,0,,{\pos(540,1301)}farklı {\c&H5A5FE7&}bir{\c&HFFFFFF&} şey gördüm.
+Dialogue: 1,0:00:29.60,0:00:29.82,Altyazi,,0,0,0,,{\pos(540,1311)}farklı {\c&H5A5FE7&}bir{\c&HFFFFFF&} şey gördüm.
 Dialogue: 1,0:00:29.82,0:00:30.02,Altyazi,,0,0,0,,{\pos(540,1223)}Ama burada ben
-Dialogue: 1,0:00:29.82,0:00:30.02,Altyazi,,0,0,0,,{\pos(540,1301)}farklı bir {\c&H5A5FE7&}şey{\c&HFFFFFF&} gördüm.
+Dialogue: 1,0:00:29.82,0:00:30.02,Altyazi,,0,0,0,,{\pos(540,1311)}farklı bir {\c&H5A5FE7&}şey{\c&HFFFFFF&} gördüm.
 Dialogue: 1,0:00:30.02,0:00:30.48,Altyazi,,0,0,0,,{\pos(540,1223)}Ama burada ben
-Dialogue: 1,0:00:30.02,0:00:30.48,Altyazi,,0,0,0,,{\pos(540,1301)}farklı bir şey {\c&H5A5FE7&}gördüm.{\c&HFFFFFF&}
-Dialogue: 0,0:00:31.31,0:00:34.71,ChipMisafir,,0,0,0,,{\pos(72,1156)}\h\h\hGizem Hanım\h\h\h
-Dialogue: 1,0:00:31.31,0:00:32.03,Altyazi,,0,0,0,,{\pos(540,1223)}{\c&H5A5FE7&}Ciddi{\c&HFFFFFF&} anlamda
-Dialogue: 1,0:00:31.31,0:00:32.03,Altyazi,,0,0,0,,{\pos(540,1301)}böyle aradığımız o
-Dialogue: 1,0:00:32.03,0:00:32.47,Altyazi,,0,0,0,,{\pos(540,1223)}Ciddi {\c&H5A5FE7&}anlamda{\c&HFFFFFF&}
-Dialogue: 1,0:00:32.03,0:00:32.47,Altyazi,,0,0,0,,{\pos(540,1301)}böyle aradığımız o
-Dialogue: 1,0:00:32.47,0:00:32.71,Altyazi,,0,0,0,,{\pos(540,1223)}Ciddi anlamda
-Dialogue: 1,0:00:32.47,0:00:32.71,Altyazi,,0,0,0,,{\pos(540,1301)}{\c&H5A5FE7&}böyle{\c&HFFFFFF&} aradığımız o
-Dialogue: 1,0:00:32.71,0:00:34.09,Altyazi,,0,0,0,,{\pos(540,1223)}Ciddi anlamda
-Dialogue: 1,0:00:32.71,0:00:34.09,Altyazi,,0,0,0,,{\pos(540,1301)}böyle {\c&H5A5FE7&}aradığımız{\c&HFFFFFF&} o
-Dialogue: 1,0:00:34.09,0:00:34.71,Altyazi,,0,0,0,,{\pos(540,1223)}Ciddi anlamda
-Dialogue: 1,0:00:34.09,0:00:34.71,Altyazi,,0,0,0,,{\pos(540,1301)}böyle aradığımız {\c&H5A5FE7&}o{\c&HFFFFFF&}
-Dialogue: 0,0:00:34.71,0:00:37.87,ChipMisafir,,0,0,0,,{\pos(72,1156)}\h\h\hGizem Hanım\h\h\h
-Dialogue: 1,0:00:34.71,0:00:35.35,Altyazi,,0,0,0,,{\pos(540,1223)}{\c&H5A5FE7&}klasik{\c&HFFFFFF&} lezzetin yanı sıra burada
-Dialogue: 1,0:00:35.35,0:00:35.93,Altyazi,,0,0,0,,{\pos(540,1223)}klasik {\c&H5A5FE7&}lezzetin{\c&HFFFFFF&} yanı sıra burada
-Dialogue: 1,0:00:35.93,0:00:36.75,Altyazi,,0,0,0,,{\pos(540,1223)}klasik lezzetin {\c&H5A5FE7&}yanı{\c&HFFFFFF&} sıra burada
-Dialogue: 1,0:00:36.75,0:00:37.13,Altyazi,,0,0,0,,{\pos(540,1223)}klasik lezzetin yanı {\c&H5A5FE7&}sıra{\c&HFFFFFF&} burada
-Dialogue: 1,0:00:37.13,0:00:37.87,Altyazi,,0,0,0,,{\pos(540,1223)}klasik lezzetin yanı sıra {\c&H5A5FE7&}burada{\c&HFFFFFF&}
-Dialogue: 0,0:00:37.87,0:00:39.57,ChipMisafir,,0,0,0,,{\pos(72,1156)}\h\h\hGizem Hanım\h\h\h
-Dialogue: 1,0:00:37.87,0:00:38.19,Altyazi,,0,0,0,,{\pos(540,1223)}{\c&H5A5FE7&}çok{\c&HFFFFFF&} farklı bir tat vardı.
-Dialogue: 1,0:00:38.19,0:00:38.59,Altyazi,,0,0,0,,{\pos(540,1223)}çok {\c&H5A5FE7&}farklı{\c&HFFFFFF&} bir tat vardı.
-Dialogue: 1,0:00:38.59,0:00:38.79,Altyazi,,0,0,0,,{\pos(540,1223)}çok farklı {\c&H5A5FE7&}bir{\c&HFFFFFF&} tat vardı.
-Dialogue: 1,0:00:38.79,0:00:39.27,Altyazi,,0,0,0,,{\pos(540,1223)}çok farklı bir {\c&H5A5FE7&}tat{\c&HFFFFFF&} vardı.
-Dialogue: 1,0:00:39.27,0:00:39.57,Altyazi,,0,0,0,,{\pos(540,1223)}çok farklı bir tat {\c&H5A5FE7&}vardı.{\c&HFFFFFF&}
+Dialogue: 1,0:00:30.02,0:00:30.48,Altyazi,,0,0,0,,{\pos(540,1311)}farklı bir şey {\c&H5A5FE7&}gördüm.{\c&HFFFFFF&}
+Dialogue: 0,0:00:31.31,0:00:36.75,ChipMisafir,,0,0,0,,{\pos(72,1156)}\h\h\hGizem Hanım\h\h\h
+Dialogue: 1,0:00:31.31,0:00:32.03,Altyazi,,0,0,0,,{\pos(540,1223)}{\c&H5A5FE7&}Ciddi{\c&HFFFFFF&} anlamda böyle aradığımız
+Dialogue: 1,0:00:31.31,0:00:32.03,Altyazi,,0,0,0,,{\pos(540,1311)}o klasik lezzetin yanı
+Dialogue: 1,0:00:32.03,0:00:32.47,Altyazi,,0,0,0,,{\pos(540,1223)}Ciddi {\c&H5A5FE7&}anlamda{\c&HFFFFFF&} böyle aradığımız
+Dialogue: 1,0:00:32.03,0:00:32.47,Altyazi,,0,0,0,,{\pos(540,1311)}o klasik lezzetin yanı
+Dialogue: 1,0:00:32.47,0:00:32.71,Altyazi,,0,0,0,,{\pos(540,1223)}Ciddi anlamda {\c&H5A5FE7&}böyle{\c&HFFFFFF&} aradığımız
+Dialogue: 1,0:00:32.47,0:00:32.71,Altyazi,,0,0,0,,{\pos(540,1311)}o klasik lezzetin yanı
+Dialogue: 1,0:00:32.71,0:00:34.09,Altyazi,,0,0,0,,{\pos(540,1223)}Ciddi anlamda böyle {\c&H5A5FE7&}aradığımız{\c&HFFFFFF&}
+Dialogue: 1,0:00:32.71,0:00:34.09,Altyazi,,0,0,0,,{\pos(540,1311)}o klasik lezzetin yanı
+Dialogue: 1,0:00:34.09,0:00:34.71,Altyazi,,0,0,0,,{\pos(540,1223)}Ciddi anlamda böyle aradığımız
+Dialogue: 1,0:00:34.09,0:00:34.71,Altyazi,,0,0,0,,{\pos(540,1311)}{\c&H5A5FE7&}o{\c&HFFFFFF&} klasik lezzetin yanı
+Dialogue: 1,0:00:34.71,0:00:35.35,Altyazi,,0,0,0,,{\pos(540,1223)}Ciddi anlamda böyle aradığımız
+Dialogue: 1,0:00:34.71,0:00:35.35,Altyazi,,0,0,0,,{\pos(540,1311)}o {\c&H5A5FE7&}klasik{\c&HFFFFFF&} lezzetin yanı
+Dialogue: 1,0:00:35.35,0:00:35.93,Altyazi,,0,0,0,,{\pos(540,1223)}Ciddi anlamda böyle aradığımız
+Dialogue: 1,0:00:35.35,0:00:35.93,Altyazi,,0,0,0,,{\pos(540,1311)}o klasik {\c&H5A5FE7&}lezzetin{\c&HFFFFFF&} yanı
+Dialogue: 1,0:00:35.93,0:00:36.75,Altyazi,,0,0,0,,{\pos(540,1223)}Ciddi anlamda böyle aradığımız
+Dialogue: 1,0:00:35.93,0:00:36.75,Altyazi,,0,0,0,,{\pos(540,1311)}o klasik lezzetin {\c&H5A5FE7&}yanı{\c&HFFFFFF&}
+Dialogue: 0,0:00:36.75,0:00:39.57,ChipMisafir,,0,0,0,,{\pos(72,1156)}\h\h\hGizem Hanım\h\h\h
+Dialogue: 1,0:00:36.75,0:00:37.13,Altyazi,,0,0,0,,{\pos(540,1223)}{\c&H5A5FE7&}sıra{\c&HFFFFFF&} burada çok farklı bir tat vardı.
+Dialogue: 1,0:00:37.13,0:00:37.87,Altyazi,,0,0,0,,{\pos(540,1223)}sıra {\c&H5A5FE7&}burada{\c&HFFFFFF&} çok farklı bir tat vardı.
+Dialogue: 1,0:00:37.87,0:00:38.19,Altyazi,,0,0,0,,{\pos(540,1223)}sıra burada {\c&H5A5FE7&}çok{\c&HFFFFFF&} farklı bir tat vardı.
+Dialogue: 1,0:00:38.19,0:00:38.59,Altyazi,,0,0,0,,{\pos(540,1223)}sıra burada çok {\c&H5A5FE7&}farklı{\c&HFFFFFF&} bir tat vardı.
+Dialogue: 1,0:00:38.59,0:00:38.79,Altyazi,,0,0,0,,{\pos(540,1223)}sıra burada çok farklı {\c&H5A5FE7&}bir{\c&HFFFFFF&} tat vardı.
+Dialogue: 1,0:00:38.79,0:00:39.27,Altyazi,,0,0,0,,{\pos(540,1223)}sıra burada çok farklı bir {\c&H5A5FE7&}tat{\c&HFFFFFF&} vardı.
+Dialogue: 1,0:00:39.27,0:00:39.57,Altyazi,,0,0,0,,{\pos(540,1223)}sıra burada çok farklı bir tat {\c&H5A5FE7&}vardı.{\c&HFFFFFF&}
 Dialogue: 0,0:00:40.15,0:00:42.45,ChipMisafir,,0,0,0,,{\pos(72,1156)}\h\h\hGizem Hanım\h\h\h
 Dialogue: 1,0:00:40.15,0:00:40.87,Altyazi,,0,0,0,,{\pos(540,1223)}{\c&H5A5FE7&}Herkesin{\c&HFFFFFF&} denemesini
-Dialogue: 1,0:00:40.15,0:00:40.87,Altyazi,,0,0,0,,{\pos(540,1301)}tavsiye ediyorum bu arada.
+Dialogue: 1,0:00:40.15,0:00:40.87,Altyazi,,0,0,0,,{\pos(540,1311)}tavsiye ediyorum bu arada.
 Dialogue: 1,0:00:40.87,0:00:41.35,Altyazi,,0,0,0,,{\pos(540,1223)}Herkesin {\c&H5A5FE7&}denemesini{\c&HFFFFFF&}
-Dialogue: 1,0:00:40.87,0:00:41.35,Altyazi,,0,0,0,,{\pos(540,1301)}tavsiye ediyorum bu arada.
+Dialogue: 1,0:00:40.87,0:00:41.35,Altyazi,,0,0,0,,{\pos(540,1311)}tavsiye ediyorum bu arada.
 Dialogue: 1,0:00:41.35,0:00:41.77,Altyazi,,0,0,0,,{\pos(540,1223)}Herkesin denemesini
-Dialogue: 1,0:00:41.35,0:00:41.77,Altyazi,,0,0,0,,{\pos(540,1301)}{\c&H5A5FE7&}tavsiye{\c&HFFFFFF&} ediyorum bu arada.
+Dialogue: 1,0:00:41.35,0:00:41.77,Altyazi,,0,0,0,,{\pos(540,1311)}{\c&H5A5FE7&}tavsiye{\c&HFFFFFF&} ediyorum bu arada.
 Dialogue: 1,0:00:41.77,0:00:42.03,Altyazi,,0,0,0,,{\pos(540,1223)}Herkesin denemesini
-Dialogue: 1,0:00:41.77,0:00:42.03,Altyazi,,0,0,0,,{\pos(540,1301)}tavsiye {\c&H5A5FE7&}ediyorum{\c&HFFFFFF&} bu arada.
+Dialogue: 1,0:00:41.77,0:00:42.03,Altyazi,,0,0,0,,{\pos(540,1311)}tavsiye {\c&H5A5FE7&}ediyorum{\c&HFFFFFF&} bu arada.
 Dialogue: 1,0:00:42.03,0:00:42.33,Altyazi,,0,0,0,,{\pos(540,1223)}Herkesin denemesini
-Dialogue: 1,0:00:42.03,0:00:42.33,Altyazi,,0,0,0,,{\pos(540,1301)}tavsiye ediyorum {\c&H5A5FE7&}bu{\c&HFFFFFF&} arada.
+Dialogue: 1,0:00:42.03,0:00:42.33,Altyazi,,0,0,0,,{\pos(540,1311)}tavsiye ediyorum {\c&H5A5FE7&}bu{\c&HFFFFFF&} arada.
 Dialogue: 1,0:00:42.33,0:00:42.45,Altyazi,,0,0,0,,{\pos(540,1223)}Herkesin denemesini
-Dialogue: 1,0:00:42.33,0:00:42.45,Altyazi,,0,0,0,,{\pos(540,1301)}tavsiye ediyorum bu {\c&H5A5FE7&}arada.{\c&HFFFFFF&}
+Dialogue: 1,0:00:42.33,0:00:42.45,Altyazi,,0,0,0,,{\pos(540,1311)}tavsiye ediyorum bu {\c&H5A5FE7&}arada.{\c&HFFFFFF&}
 Dialogue: 0,0:00:42.45,0:00:43.17,ChipHost,,0,0,0,,{\pos(72,1156)}\h\h\hVolkan Usta\h\h\h
 Dialogue: 1,0:00:42.45,0:00:42.95,Altyazi,,0,0,0,,{\pos(540,1223)}{\c&H0EAFF5&}Çok{\c&HFFFFFF&} teşekkür ederim.
 Dialogue: 1,0:00:42.95,0:00:43.00,Altyazi,,0,0,0,,{\pos(540,1223)}Çok {\c&H0EAFF5&}teşekkür{\c&HFFFFFF&} ederim.
 Dialogue: 1,0:00:42.97,0:00:43.17,Altyazi,,0,0,0,,{\pos(540,1223)}Çok teşekkür {\c&H0EAFF5&}ederim.{\c&HFFFFFF&}
 Dialogue: 0,0:00:43.75,0:00:48.11,ChipHost,,0,0,0,,{\pos(72,1156)}\h\h\hVolkan Usta\h\h\h
 Dialogue: 1,0:00:43.75,0:00:44.47,Altyazi,,0,0,0,,{\pos(540,1223)}{\c&H0EAFF5&}Yani{\c&HFFFFFF&} bizim zaten
-Dialogue: 1,0:00:43.75,0:00:44.47,Altyazi,,0,0,0,,{\pos(540,1301)}yapmaya çalıştığımız
+Dialogue: 1,0:00:43.75,0:00:44.47,Altyazi,,0,0,0,,{\pos(540,1311)}yapmaya çalıştığımız
 Dialogue: 1,0:00:44.47,0:00:45.43,Altyazi,,0,0,0,,{\pos(540,1223)}Yani {\c&H0EAFF5&}bizim{\c&HFFFFFF&} zaten
-Dialogue: 1,0:00:44.47,0:00:45.43,Altyazi,,0,0,0,,{\pos(540,1301)}yapmaya çalıştığımız
+Dialogue: 1,0:00:44.47,0:00:45.43,Altyazi,,0,0,0,,{\pos(540,1311)}yapmaya çalıştığımız
 Dialogue: 1,0:00:45.43,0:00:45.79,Altyazi,,0,0,0,,{\pos(540,1223)}Yani bizim {\c&H0EAFF5&}zaten{\c&HFFFFFF&}
-Dialogue: 1,0:00:45.43,0:00:45.79,Altyazi,,0,0,0,,{\pos(540,1301)}yapmaya çalıştığımız
+Dialogue: 1,0:00:45.43,0:00:45.79,Altyazi,,0,0,0,,{\pos(540,1311)}yapmaya çalıştığımız
 Dialogue: 1,0:00:45.79,0:00:47.61,Altyazi,,0,0,0,,{\pos(540,1223)}Yani bizim zaten
-Dialogue: 1,0:00:45.79,0:00:47.61,Altyazi,,0,0,0,,{\pos(540,1301)}{\c&H0EAFF5&}yapmaya{\c&HFFFFFF&} çalıştığımız
+Dialogue: 1,0:00:45.79,0:00:47.61,Altyazi,,0,0,0,,{\pos(540,1311)}{\c&H0EAFF5&}yapmaya{\c&HFFFFFF&} çalıştığımız
 Dialogue: 1,0:00:47.61,0:00:48.11,Altyazi,,0,0,0,,{\pos(540,1223)}Yani bizim zaten
-Dialogue: 1,0:00:47.61,0:00:48.11,Altyazi,,0,0,0,,{\pos(540,1301)}yapmaya {\c&H0EAFF5&}çalıştığımız{\c&HFFFFFF&}
+Dialogue: 1,0:00:47.61,0:00:48.11,Altyazi,,0,0,0,,{\pos(540,1311)}yapmaya {\c&H0EAFF5&}çalıştığımız{\c&HFFFFFF&}
 Dialogue: 0,0:00:48.11,0:00:49.47,ChipHost,,0,0,0,,{\pos(72,1156)}\h\h\hVolkan Usta\h\h\h
 Dialogue: 1,0:00:48.11,0:00:48.39,Altyazi,,0,0,0,,{\pos(540,1223)}{\c&H0EAFF5&}salt{\c&HFFFFFF&} bir klasik döner değil.
 Dialogue: 1,0:00:48.39,0:00:48.59,Altyazi,,0,0,0,,{\pos(540,1223)}salt {\c&H0EAFF5&}bir{\c&HFFFFFF&} klasik döner değil.
@@ -205,17 +202,17 @@ Dialogue: 1,0:00:50.51,0:00:50.63,Altyazi,,0,0,0,,{\pos(540,1223)}Bir tık üst�
 Dialogue: 1,0:00:50.63,0:00:50.99,Altyazi,,0,0,0,,{\pos(540,1223)}Bir tık üstü için {\c&H0EAFF5&}uğraşıyoruz.{\c&HFFFFFF&}
 Dialogue: 0,0:00:51.37,0:00:53.97,ChipHost,,0,0,0,,{\pos(72,1156)}\h\h\hVolkan Usta\h\h\h
 Dialogue: 1,0:00:51.37,0:00:52.03,Altyazi,,0,0,0,,{\pos(540,1223)}{\c&H0EAFF5&}Elimizden{\c&HFFFFFF&} geldiğince ne kadar
-Dialogue: 1,0:00:51.37,0:00:52.03,Altyazi,,0,0,0,,{\pos(540,1301)}becerebiliyoruz bilmiyoruz.
+Dialogue: 1,0:00:51.37,0:00:52.03,Altyazi,,0,0,0,,{\pos(540,1311)}becerebiliyoruz bilmiyoruz.
 Dialogue: 1,0:00:52.03,0:00:52.51,Altyazi,,0,0,0,,{\pos(540,1223)}Elimizden {\c&H0EAFF5&}geldiğince{\c&HFFFFFF&} ne kadar
-Dialogue: 1,0:00:52.03,0:00:52.51,Altyazi,,0,0,0,,{\pos(540,1301)}becerebiliyoruz bilmiyoruz.
+Dialogue: 1,0:00:52.03,0:00:52.51,Altyazi,,0,0,0,,{\pos(540,1311)}becerebiliyoruz bilmiyoruz.
 Dialogue: 1,0:00:52.51,0:00:52.65,Altyazi,,0,0,0,,{\pos(540,1223)}Elimizden geldiğince {\c&H0EAFF5&}ne{\c&HFFFFFF&} kadar
-Dialogue: 1,0:00:52.51,0:00:52.65,Altyazi,,0,0,0,,{\pos(540,1301)}becerebiliyoruz bilmiyoruz.
+Dialogue: 1,0:00:52.51,0:00:52.65,Altyazi,,0,0,0,,{\pos(540,1311)}becerebiliyoruz bilmiyoruz.
 Dialogue: 1,0:00:52.65,0:00:52.83,Altyazi,,0,0,0,,{\pos(540,1223)}Elimizden geldiğince ne {\c&H0EAFF5&}kadar{\c&HFFFFFF&}
-Dialogue: 1,0:00:52.65,0:00:52.83,Altyazi,,0,0,0,,{\pos(540,1301)}becerebiliyoruz bilmiyoruz.
+Dialogue: 1,0:00:52.65,0:00:52.83,Altyazi,,0,0,0,,{\pos(540,1311)}becerebiliyoruz bilmiyoruz.
 Dialogue: 1,0:00:52.83,0:00:53.57,Altyazi,,0,0,0,,{\pos(540,1223)}Elimizden geldiğince ne kadar
-Dialogue: 1,0:00:52.83,0:00:53.57,Altyazi,,0,0,0,,{\pos(540,1301)}{\c&H0EAFF5&}becerebiliyoruz{\c&HFFFFFF&} bilmiyoruz.
+Dialogue: 1,0:00:52.83,0:00:53.57,Altyazi,,0,0,0,,{\pos(540,1311)}{\c&H0EAFF5&}becerebiliyoruz{\c&HFFFFFF&} bilmiyoruz.
 Dialogue: 1,0:00:53.57,0:00:53.97,Altyazi,,0,0,0,,{\pos(540,1223)}Elimizden geldiğince ne kadar
-Dialogue: 1,0:00:53.57,0:00:53.97,Altyazi,,0,0,0,,{\pos(540,1301)}becerebiliyoruz {\c&H0EAFF5&}bilmiyoruz.{\c&HFFFFFF&}
+Dialogue: 1,0:00:53.57,0:00:53.97,Altyazi,,0,0,0,,{\pos(540,1311)}becerebiliyoruz {\c&H0EAFF5&}bilmiyoruz.{\c&HFFFFFF&}
 Dialogue: 0,0:00:53.97,0:00:54.71,ChipHost,,0,0,0,,{\pos(72,1156)}\h\h\hVolkan Usta\h\h\h
 Dialogue: 1,0:00:53.97,0:00:54.21,Altyazi,,0,0,0,,{\pos(540,1223)}{\c&H0EAFF5&}Bunları{\c&HFFFFFF&} kararlı tutuyoruz.
 Dialogue: 1,0:00:54.21,0:00:54.65,Altyazi,,0,0,0,,{\pos(540,1223)}Bunları {\c&H0EAFF5&}kararlı{\c&HFFFFFF&} tutuyoruz.
@@ -235,36 +232,34 @@ Dialogue: 0,0:00:57.53,0:00:58.83,ChipMisafir2,,0,0,0,,{\pos(72,1156)}\h\h\hGör
 Dialogue: 1,0:00:57.53,0:00:58.01,Altyazi,,0,0,0,,{\pos(540,1223)}{\c&H8B4FD6&}Abi{\c&HFFFFFF&} şöyle söyleyeyim.
 Dialogue: 1,0:00:58.01,0:00:58.33,Altyazi,,0,0,0,,{\pos(540,1223)}Abi {\c&H8B4FD6&}şöyle{\c&HFFFFFF&} söyleyeyim.
 Dialogue: 1,0:00:58.33,0:00:58.83,Altyazi,,0,0,0,,{\pos(540,1223)}Abi şöyle {\c&H8B4FD6&}söyleyeyim.{\c&HFFFFFF&}
-Dialogue: 0,0:00:58.83,0:00:59.51,ChipMisafir2,,0,0,0,,{\pos(72,1156)}\h\h\hGörkem Bey\h\h\h
-Dialogue: 1,0:00:58.83,0:00:58.91,Altyazi,,0,0,0,,{\pos(540,1223)}{\c&H8B4FD6&}Bir{\c&HFFFFFF&} tık daha üstünü
-Dialogue: 1,0:00:58.91,0:00:59.11,Altyazi,,0,0,0,,{\pos(540,1223)}Bir {\c&H8B4FD6&}tık{\c&HFFFFFF&} daha üstünü
-Dialogue: 1,0:00:59.11,0:00:59.21,Altyazi,,0,0,0,,{\pos(540,1223)}Bir tık {\c&H8B4FD6&}daha{\c&HFFFFFF&} üstünü
-Dialogue: 1,0:00:59.21,0:00:59.51,Altyazi,,0,0,0,,{\pos(540,1223)}Bir tık daha {\c&H8B4FD6&}üstünü{\c&HFFFFFF&}
-Dialogue: 0,0:00:59.51,0:01:01.23,ChipMisafir2,,0,0,0,,{\pos(72,1156)}\h\h\hGörkem Bey\h\h\h
-Dialogue: 1,0:00:59.51,0:00:59.81,Altyazi,,0,0,0,,{\pos(540,1223)}{\c&H8B4FD6&}yapmaya{\c&HFFFFFF&} çalışmışsın
-Dialogue: 1,0:00:59.51,0:00:59.81,Altyazi,,0,0,0,,{\pos(540,1301)}ve başarmışsın.
-Dialogue: 1,0:00:59.81,0:01:00.37,Altyazi,,0,0,0,,{\pos(540,1223)}yapmaya {\c&H8B4FD6&}çalışmışsın{\c&HFFFFFF&}
-Dialogue: 1,0:00:59.81,0:01:00.37,Altyazi,,0,0,0,,{\pos(540,1301)}ve başarmışsın.
-Dialogue: 1,0:01:00.37,0:01:00.57,Altyazi,,0,0,0,,{\pos(540,1223)}yapmaya çalışmışsın
-Dialogue: 1,0:01:00.37,0:01:00.57,Altyazi,,0,0,0,,{\pos(540,1301)}{\c&H8B4FD6&}ve{\c&HFFFFFF&} başarmışsın.
-Dialogue: 1,0:01:00.57,0:01:01.23,Altyazi,,0,0,0,,{\pos(540,1223)}yapmaya çalışmışsın
-Dialogue: 1,0:01:00.57,0:01:01.23,Altyazi,,0,0,0,,{\pos(540,1301)}ve {\c&H8B4FD6&}başarmışsın.{\c&HFFFFFF&}
+Dialogue: 0,0:00:58.83,0:01:01.23,ChipMisafir2,,0,0,0,,{\pos(72,1156)}\h\h\hGörkem Bey\h\h\h
+Dialogue: 1,0:00:58.83,0:00:58.91,Altyazi,,0,0,0,,{\pos(540,1223)}{\c&H8B4FD6&}Bir{\c&HFFFFFF&} tık daha üstünü yapmaya
+Dialogue: 1,0:00:58.83,0:00:58.91,Altyazi,,0,0,0,,{\pos(540,1311)}çalışmışsın ve başarmışsın.
+Dialogue: 1,0:00:58.91,0:00:59.11,Altyazi,,0,0,0,,{\pos(540,1223)}Bir {\c&H8B4FD6&}tık{\c&HFFFFFF&} daha üstünü yapmaya
+Dialogue: 1,0:00:58.91,0:00:59.11,Altyazi,,0,0,0,,{\pos(540,1311)}çalışmışsın ve başarmışsın.
+Dialogue: 1,0:00:59.11,0:00:59.21,Altyazi,,0,0,0,,{\pos(540,1223)}Bir tık {\c&H8B4FD6&}daha{\c&HFFFFFF&} üstünü yapmaya
+Dialogue: 1,0:00:59.11,0:00:59.21,Altyazi,,0,0,0,,{\pos(540,1311)}çalışmışsın ve başarmışsın.
+Dialogue: 1,0:00:59.21,0:00:59.51,Altyazi,,0,0,0,,{\pos(540,1223)}Bir tık daha {\c&H8B4FD6&}üstünü{\c&HFFFFFF&} yapmaya
+Dialogue: 1,0:00:59.21,0:00:59.51,Altyazi,,0,0,0,,{\pos(540,1311)}çalışmışsın ve başarmışsın.
+Dialogue: 1,0:00:59.51,0:00:59.81,Altyazi,,0,0,0,,{\pos(540,1223)}Bir tık daha üstünü {\c&H8B4FD6&}yapmaya{\c&HFFFFFF&}
+Dialogue: 1,0:00:59.51,0:00:59.81,Altyazi,,0,0,0,,{\pos(540,1311)}çalışmışsın ve başarmışsın.
+Dialogue: 1,0:00:59.81,0:01:00.37,Altyazi,,0,0,0,,{\pos(540,1223)}Bir tık daha üstünü yapmaya
+Dialogue: 1,0:00:59.81,0:01:00.37,Altyazi,,0,0,0,,{\pos(540,1311)}{\c&H8B4FD6&}çalışmışsın{\c&HFFFFFF&} ve başarmışsın.
+Dialogue: 1,0:01:00.37,0:01:00.57,Altyazi,,0,0,0,,{\pos(540,1223)}Bir tık daha üstünü yapmaya
+Dialogue: 1,0:01:00.37,0:01:00.57,Altyazi,,0,0,0,,{\pos(540,1311)}çalışmışsın {\c&H8B4FD6&}ve{\c&HFFFFFF&} başarmışsın.
+Dialogue: 1,0:01:00.57,0:01:01.23,Altyazi,,0,0,0,,{\pos(540,1223)}Bir tık daha üstünü yapmaya
+Dialogue: 1,0:01:00.57,0:01:01.23,Altyazi,,0,0,0,,{\pos(540,1311)}çalışmışsın ve {\c&H8B4FD6&}başarmışsın.{\c&HFFFFFF&}
 Dialogue: 0,0:01:01.35,0:01:01.83,ChipHost,,0,0,0,,{\pos(72,1156)}\h\h\hVolkan Usta\h\h\h
 Dialogue: 1,0:01:01.35,0:01:01.83,Altyazi,,0,0,0,,{\pos(540,1223)}{\c&H0EAFF5&}Eyvallah.{\c&HFFFFFF&}
 Dialogue: 0,0:01:02.51,0:01:03.33,ChipMisafir2,,0,0,0,,{\pos(72,1156)}\h\h\hGörkem Bey\h\h\h
 Dialogue: 1,0:01:02.51,0:01:02.99,Altyazi,,0,0,0,,{\pos(540,1223)}{\c&H8B4FD6&}Şöyle{\c&HFFFFFF&} söyleyeyim.
 Dialogue: 1,0:01:02.99,0:01:03.33,Altyazi,,0,0,0,,{\pos(540,1223)}Şöyle {\c&H8B4FD6&}söyleyeyim.{\c&HFFFFFF&}
 Dialogue: 0,0:01:03.37,0:01:04.51,ChipMisafir2,,0,0,0,,{\pos(72,1156)}\h\h\hGörkem Bey\h\h\h
-Dialogue: 1,0:01:03.37,0:01:03.57,Altyazi,,0,0,0,,{\pos(540,1223)}{\c&H8B4FD6&}Hepimiz{\c&HFFFFFF&} her yerde
-Dialogue: 1,0:01:03.37,0:01:03.57,Altyazi,,0,0,0,,{\pos(540,1301)}döner yiyoruz.
-Dialogue: 1,0:01:03.57,0:01:03.73,Altyazi,,0,0,0,,{\pos(540,1223)}Hepimiz {\c&H8B4FD6&}her{\c&HFFFFFF&} yerde
-Dialogue: 1,0:01:03.57,0:01:03.73,Altyazi,,0,0,0,,{\pos(540,1301)}döner yiyoruz.
-Dialogue: 1,0:01:03.73,0:01:03.95,Altyazi,,0,0,0,,{\pos(540,1223)}Hepimiz her {\c&H8B4FD6&}yerde{\c&HFFFFFF&}
-Dialogue: 1,0:01:03.73,0:01:03.95,Altyazi,,0,0,0,,{\pos(540,1301)}döner yiyoruz.
-Dialogue: 1,0:01:03.95,0:01:04.27,Altyazi,,0,0,0,,{\pos(540,1223)}Hepimiz her yerde
-Dialogue: 1,0:01:03.95,0:01:04.27,Altyazi,,0,0,0,,{\pos(540,1301)}{\c&H8B4FD6&}döner{\c&HFFFFFF&} yiyoruz.
-Dialogue: 1,0:01:04.27,0:01:04.51,Altyazi,,0,0,0,,{\pos(540,1223)}Hepimiz her yerde
-Dialogue: 1,0:01:04.27,0:01:04.51,Altyazi,,0,0,0,,{\pos(540,1301)}döner {\c&H8B4FD6&}yiyoruz.{\c&HFFFFFF&}
+Dialogue: 1,0:01:03.37,0:01:03.57,Altyazi,,0,0,0,,{\pos(540,1223)}{\c&H8B4FD6&}Hepimiz{\c&HFFFFFF&} her yerde döner yiyoruz.
+Dialogue: 1,0:01:03.57,0:01:03.73,Altyazi,,0,0,0,,{\pos(540,1223)}Hepimiz {\c&H8B4FD6&}her{\c&HFFFFFF&} yerde döner yiyoruz.
+Dialogue: 1,0:01:03.73,0:01:03.95,Altyazi,,0,0,0,,{\pos(540,1223)}Hepimiz her {\c&H8B4FD6&}yerde{\c&HFFFFFF&} döner yiyoruz.
+Dialogue: 1,0:01:03.95,0:01:04.27,Altyazi,,0,0,0,,{\pos(540,1223)}Hepimiz her yerde {\c&H8B4FD6&}döner{\c&HFFFFFF&} yiyoruz.
+Dialogue: 1,0:01:04.27,0:01:04.51,Altyazi,,0,0,0,,{\pos(540,1223)}Hepimiz her yerde döner {\c&H8B4FD6&}yiyoruz.{\c&HFFFFFF&}
 Dialogue: 0,0:01:04.91,0:01:06.35,ChipMisafir2,,0,0,0,,{\pos(72,1156)}\h\h\hGörkem Bey\h\h\h
 Dialogue: 1,0:01:04.91,0:01:05.39,Altyazi,,0,0,0,,{\pos(540,1223)}{\c&H8B4FD6&}Ben{\c&HFFFFFF&} şunlardan çok sıkıldım.
 Dialogue: 1,0:01:05.39,0:01:05.77,Altyazi,,0,0,0,,{\pos(540,1223)}Ben {\c&H8B4FD6&}şunlardan{\c&HFFFFFF&} çok sıkıldım.
@@ -316,28 +311,28 @@ Dialogue: 1,0:01:17.83,0:01:18.23,Altyazi,,0,0,0,,{\pos(540,1223)}Dolayısıyla 
 Dialogue: 1,0:01:18.23,0:01:18.37,Altyazi,,0,0,0,,{\pos(540,1223)}Dolayısıyla bence {\c&H8B4FD6&}bu.{\c&HFFFFFF&}
 Dialogue: 0,0:01:18.73,0:01:21.45,ChipMisafir,,0,0,0,,{\pos(72,1156)}\h\h\hGizem Hanım\h\h\h
 Dialogue: 1,0:01:18.73,0:01:18.99,Altyazi,,0,0,0,,{\pos(540,1223)}{\c&H5A5FE7&}Bu{\c&HFFFFFF&} arada gördüğümüzden
-Dialogue: 1,0:01:18.73,0:01:18.99,Altyazi,,0,0,0,,{\pos(540,1301)}beri iki aydır
+Dialogue: 1,0:01:18.73,0:01:18.99,Altyazi,,0,0,0,,{\pos(540,1311)}beri iki aydır
 Dialogue: 1,0:01:18.99,0:01:19.19,Altyazi,,0,0,0,,{\pos(540,1223)}Bu {\c&H5A5FE7&}arada{\c&HFFFFFF&} gördüğümüzden
-Dialogue: 1,0:01:18.99,0:01:19.19,Altyazi,,0,0,0,,{\pos(540,1301)}beri iki aydır
+Dialogue: 1,0:01:18.99,0:01:19.19,Altyazi,,0,0,0,,{\pos(540,1311)}beri iki aydır
 Dialogue: 1,0:01:19.19,0:01:20.59,Altyazi,,0,0,0,,{\pos(540,1223)}Bu arada {\c&H5A5FE7&}gördüğümüzden{\c&HFFFFFF&}
-Dialogue: 1,0:01:19.19,0:01:20.59,Altyazi,,0,0,0,,{\pos(540,1301)}beri iki aydır
+Dialogue: 1,0:01:19.19,0:01:20.59,Altyazi,,0,0,0,,{\pos(540,1311)}beri iki aydır
 Dialogue: 1,0:01:20.59,0:01:20.85,Altyazi,,0,0,0,,{\pos(540,1223)}Bu arada gördüğümüzden
-Dialogue: 1,0:01:20.59,0:01:20.85,Altyazi,,0,0,0,,{\pos(540,1301)}{\c&H5A5FE7&}beri{\c&HFFFFFF&} iki aydır
+Dialogue: 1,0:01:20.59,0:01:20.85,Altyazi,,0,0,0,,{\pos(540,1311)}{\c&H5A5FE7&}beri{\c&HFFFFFF&} iki aydır
 Dialogue: 1,0:01:20.85,0:01:21.05,Altyazi,,0,0,0,,{\pos(540,1223)}Bu arada gördüğümüzden
-Dialogue: 1,0:01:20.85,0:01:21.05,Altyazi,,0,0,0,,{\pos(540,1301)}beri {\c&H5A5FE7&}iki{\c&HFFFFFF&} aydır
+Dialogue: 1,0:01:20.85,0:01:21.05,Altyazi,,0,0,0,,{\pos(540,1311)}beri {\c&H5A5FE7&}iki{\c&HFFFFFF&} aydır
 Dialogue: 1,0:01:21.05,0:01:21.45,Altyazi,,0,0,0,,{\pos(540,1223)}Bu arada gördüğümüzden
-Dialogue: 1,0:01:21.05,0:01:21.45,Altyazi,,0,0,0,,{\pos(540,1301)}beri iki {\c&H5A5FE7&}aydır{\c&HFFFFFF&}
+Dialogue: 1,0:01:21.05,0:01:21.45,Altyazi,,0,0,0,,{\pos(540,1311)}beri iki {\c&H5A5FE7&}aydır{\c&HFFFFFF&}
 Dialogue: 0,0:01:21.45,0:01:23.53,ChipMisafir,,0,0,0,,{\pos(72,1156)}\h\h\hGizem Hanım\h\h\h
 Dialogue: 1,0:01:21.45,0:01:21.79,Altyazi,,0,0,0,,{\pos(540,1223)}{\c&H5A5FE7&}döner{\c&HFFFFFF&} yemediğimizi
-Dialogue: 1,0:01:21.45,0:01:21.79,Altyazi,,0,0,0,,{\pos(540,1301)}de söyleyelim bence.
+Dialogue: 1,0:01:21.45,0:01:21.79,Altyazi,,0,0,0,,{\pos(540,1311)}de söyleyelim bence.
 Dialogue: 1,0:01:21.79,0:01:22.41,Altyazi,,0,0,0,,{\pos(540,1223)}döner {\c&H5A5FE7&}yemediğimizi{\c&HFFFFFF&}
-Dialogue: 1,0:01:21.79,0:01:22.41,Altyazi,,0,0,0,,{\pos(540,1301)}de söyleyelim bence.
+Dialogue: 1,0:01:21.79,0:01:22.41,Altyazi,,0,0,0,,{\pos(540,1311)}de söyleyelim bence.
 Dialogue: 1,0:01:22.41,0:01:22.53,Altyazi,,0,0,0,,{\pos(540,1223)}döner yemediğimizi
-Dialogue: 1,0:01:22.41,0:01:22.53,Altyazi,,0,0,0,,{\pos(540,1301)}{\c&H5A5FE7&}de{\c&HFFFFFF&} söyleyelim bence.
+Dialogue: 1,0:01:22.41,0:01:22.53,Altyazi,,0,0,0,,{\pos(540,1311)}{\c&H5A5FE7&}de{\c&HFFFFFF&} söyleyelim bence.
 Dialogue: 1,0:01:22.53,0:01:23.13,Altyazi,,0,0,0,,{\pos(540,1223)}döner yemediğimizi
-Dialogue: 1,0:01:22.53,0:01:23.13,Altyazi,,0,0,0,,{\pos(540,1301)}de {\c&H5A5FE7&}söyleyelim{\c&HFFFFFF&} bence.
+Dialogue: 1,0:01:22.53,0:01:23.13,Altyazi,,0,0,0,,{\pos(540,1311)}de {\c&H5A5FE7&}söyleyelim{\c&HFFFFFF&} bence.
 Dialogue: 1,0:01:23.13,0:01:23.53,Altyazi,,0,0,0,,{\pos(540,1223)}döner yemediğimizi
-Dialogue: 1,0:01:23.13,0:01:23.53,Altyazi,,0,0,0,,{\pos(540,1301)}de söyleyelim {\c&H5A5FE7&}bence.{\c&HFFFFFF&}
+Dialogue: 1,0:01:23.13,0:01:23.53,Altyazi,,0,0,0,,{\pos(540,1311)}de söyleyelim {\c&H5A5FE7&}bence.{\c&HFFFFFF&}
 Dialogue: 0,0:01:24.85,0:01:25.53,ChipMisafir,,0,0,0,,{\pos(72,1156)}\h\h\hGizem Hanım\h\h\h
 Dialogue: 1,0:01:24.85,0:01:25.25,Altyazi,,0,0,0,,{\pos(540,1223)}{\c&H5A5FE7&}Bayağıdır{\c&HFFFFFF&} geleceğiz.
 Dialogue: 1,0:01:25.25,0:01:25.53,Altyazi,,0,0,0,,{\pos(540,1223)}Bayağıdır {\c&H5A5FE7&}geleceğiz.{\c&HFFFFFF&}

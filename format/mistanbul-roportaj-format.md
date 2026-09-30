@@ -106,9 +106,23 @@ yazarsan **%18 küçük** çıkar. Kalibrasyon her zaman render çıktısı
 ölçülerek yapılmalı, font metriğinden hesaplanarak değil.
 
 - Renk: beyaz `#FFFFFF`
-- Arka plan: siyah `#151215`, ~%75 opaklık (ASS alpha `40`),
-  **yuvarlatılmış köşe**, her satırın kendi kutusu var
+- Arka plan: siyah `#151215`, **yuvarlatılmış köşe**, her satırın kendi kutusu var
 - Kutu dolgusu: ASS `Outline 13`
+
+### Referanstan bilinçli sapmalar
+
+Aşağıdakiler ölçümle referansa eşitlendikten sonra, okunabilirlik için
+kasten değiştirildi. Yeni videoda da bu değerler kullanılmalı:
+
+| | Referans | Kullanılan | Neden |
+|---|---|---|---|
+| Kutu opaklığı | ~%75 (alpha `40`) | **~%87 (alpha `20`)** | Hareketli/açık renkli arka planda metin daha net |
+| Satır aralığı | 78 @1080 | **88 @1080** | İki satır birbirine yapışık duruyordu |
+| Satır genişlik sınırı | ~890 px | **1000 px** | Daha az satır kırılması, daha az zıplayan blok |
+| Ekran başına kelime | 7 | **8** | Yukarıdakiyle uyumlu |
+
+Bu ayarlarla 53 ekrandan 51'e düşüldü, iki satırlı ekran sayısı 17'den
+15'e indi — altyazı daha az bölünüyor.
 
 ### Chip (konuşmacı etiketi) — ölçülen değerler
 

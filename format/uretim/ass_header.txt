@@ -11,7 +11,7 @@ YCbCr Matrix: TV.709
 
 [V4+ Styles]
 Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
-Style: Altyazi,Inter ExtraBold,69,&H00FFFFFF,&H00FFFFFF,&H40151215,&H00000000,0,0,0,0,100,100,0,0,3,13,0,8,90,90,1223,1
+Style: Altyazi,Inter ExtraBold,69,&H00FFFFFF,&H00FFFFFF,&H20151215,&H00000000,0,0,0,0,100,100,0,0,3,13,0,8,90,90,1223,1
 Style: ChipHost,Inter ExtraBold,44,&H00000000,&H00000000,&H000EAFF5,&H00000000,0,0,0,0,100,100,0,0,3,5,0,7,72,90,1168,1
 Style: ChipMisafir,Inter ExtraBold,44,&H00FFFFFF,&H00FFFFFF,&H005A5FE7,&H00000000,0,0,0,0,100,100,0,0,3,5,0,7,72,90,1168,1
 Style: ChipMisafir2,Inter ExtraBold,44,&H00FFFFFF,&H00FFFFFF,&H00D64F8B,&H00000000,0,0,0,0,100,100,0,0,3,5,0,7,72,90,1168,1

@@ -20,8 +20,8 @@ ASS_SIZE = 69
 
 CHIP_SIZE = 44
 CHIP_PAD = r"\h\h\h"   # chip yatay dolgusu
-MAX_LINE_PX = 900          # referans satır genişliği ~890px @1080
-MAX_WORDS = 7              # ekran başına kelime üst sınırı
+MAX_LINE_PX = 1000          # referans satır genişliği ~890px @1080
+MAX_WORDS = 8              # ekran başına kelime üst sınırı
 MAX_GAP = 0.65             # bu kadar sessizlikten sonra yeni ekran
 MIN_CHUNK_DUR = 0.45
 
@@ -30,7 +30,7 @@ MIN_CHUNK_DUR = 0.45
 # Konumlandırma \pos ile yapılıyor, MarginV ile DEĞİL: libass üst üste binen
 # altyazıları otomatik aşağı itiyor ve MarginV'yi eziyor. \pos bunu kapatır.
 SATIR1_Y = 1223            # ilk satırın üst noktası @1080 (Alignment 8)
-SATIR_ADIM = 78            # satır aralığı @1080 (referans: 55px @720)
+SATIR_ADIM = 88            # satır aralığı @1080 (referans: 55px @720)
 CHIP_X, CHIP_Y = 72, 1156  # chip sol-üst noktası @1080 (Alignment 7)
 
 SPEAKERS = {
