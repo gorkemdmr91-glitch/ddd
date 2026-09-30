@@ -31,7 +31,7 @@ MIN_CHUNK_DUR = 0.45
 # altyazıları otomatik aşağı itiyor ve MarginV'yi eziyor. \pos bunu kapatır.
 SATIR1_Y = 1223            # ilk satırın üst noktası @1080 (Alignment 8)
 SATIR_ADIM = 88            # satır aralığı @1080 (referans: 55px @720)
-CHIP_X, CHIP_Y = 72, 1156  # chip sol-üst noktası @1080 (Alignment 7)
+CHIP_X, CHIP_Y = 72, 1162  # chip sol-üst @1080; alt kenarı altyazı kutusuna yapışık (boşluk 0)
 
 SPEAKERS = {
     "host":    {"style": "ChipHost",    "hi": "&H0EAFF5&", "label": "Volkan Usta"},

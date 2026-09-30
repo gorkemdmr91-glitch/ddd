@@ -128,9 +128,17 @@ Bu ayarlarla 53 ekrandan 51'e düşüldü, iki satırlı ekran sayısı 17'den
 
 | | Referans @720 | Kullanılan ASS ayarı |
 |---|---|---|
-| Kutu | y768–805, x44–220 | `\pos(72,1156)`, Alignment 7 |
+| Kutu | y768–805, x44–220 | `\pos(72,1162)`, Alignment 7 |
 | İçindeki yazı | yük. 19, gen. 144 | Inter ExtraBold **44**, `Outline 5` |
 | Yatay dolgu | sol 16, sağ 17 | `\h` × 3 her iki yana |
+
+**Chip altyazıya yapışık durur.** Referansta chip kutusunun alt kenarı
+(y805) ile altyazı kutusunun üst kenarı (y806) arasında **0 piksel** var —
+iki kutu tek parça gibi okunuyor. Arada boşluk bırakmak formatı bozar.
+
+Bu yüzden `CHIP_Y`, altyazı kutusunun üst kenarına göre ayarlanır:
+`CHIP_Y = SATIR1_Y − chip_kutu_yüksekliği`. Chip puntosu veya `Outline`'ı
+değişirse kutu yüksekliği de değişir, `CHIP_Y` yeniden ölçülmelidir.
 
 ### Bu yöntemle kapatılamayan tek fark
 
