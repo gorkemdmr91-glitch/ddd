@@ -9,6 +9,12 @@ DUZELTME = [
     (59.41, "görkem",  "Görkem"),
     (93.35, "Erdoğan", "Her zaman"),
     (82.29, "gördüğünüzden", "gördüğümüzden"),
+    # "Bunları kararlı tutuyoruz" -> "Bunların kararını tabii ki siz vereceksiniz yani."
+    # ("tutuyoruz." ASR güveni 0.447 ve 0.06 sn sürüyor — uydurma kelime, siliniyor)
+    (57.07, "Bunları",    "Bunların"),
+    (57.31, "kararlı",    "kararını"),
+    (57.75, "tutuyoruz.", ""),
+    (57.83, "Tabii",      "tabii"),
 ]
 
 segs = json.load(open("transkript.json", encoding="utf-8"))
@@ -21,10 +27,12 @@ for t, old, new in DUZELTME:
             w["w"] = w["w"].replace(old, new) if old in w["w"] else new
             break
 
-# çok kelimeli düzeltmeleri böl
+# çok kelimeli düzeltmeleri böl, boşaltılanları at
 out = []
 for w in words:
     parts = w["w"].split()
+    if not parts:
+        continue
     if len(parts) > 1:
         d = (w["e"] - w["s"]) / len(parts)
         for i, p in enumerate(parts):

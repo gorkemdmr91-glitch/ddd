@@ -37,7 +37,12 @@ Format referansı: `format/mistanbul-roportaj-format.md`
 - Konuşmacı renkleri:
   - **Volkan Usta** — `#F5AF0E` amber (formatla aynı)
   - **Gizem Hanım** — `#E75F5A` mercan (formatta misafir rengi)
-  - **Görkem Bey** — `#D64F8B` fuşya (üçüncü konuşmacı için yeni, formata eklendi)
+  - **Görkem Bey** — `#2D96DC` mavi (üçüncü konuşmacı için yeni, formata eklendi)
+
+  Görkem'in rengi önce lila seçilmişti; ayrıca chip ile vurgu rengi ASS'in
+  ters byte dizilimi yüzünden birbirinden farklı çıkıyordu (chip `#8B4FD6`,
+  vurgu `#D64F8B`). İkisi de `#2D96DC` olarak düzeltildi. Daha sakin bir
+  ton istenirse turkuaz `#12A594` hazır alternatif.
 
 ## Transkriptte elle düzeltilenler
 
@@ -48,6 +53,7 @@ Format referansı: `format/mistanbul-roportaj-format.md`
 | 72.15 | "300" + "-350" | "300-350" | Tokenizasyon hatası |
 | 82.29 | "gördüğünüzden" | "gördüğümüzden" | ASR hatası (kullanıcı doğruladı) |
 | 93.35 | "Erdoğan için de bekliyorum" | "Her zaman için de bekliyorum" | Açık ASR hatası; referans videoda da "Her zaman için de beklerim" geçiyor |
+| 57.07–57.83 | "Bunları kararlı tutuyoruz. Tabii ki siz vereceksiniz" | "Bunların kararını tabii ki siz vereceksiniz" | "tutuyoruz." ASR güveni 0.447 ve süresi 0.06 sn — uydurma kelime, silindi |
 
 ## Altyazı stili — v2'de düzeltildi
 

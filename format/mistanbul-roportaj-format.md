@@ -54,7 +54,7 @@ Tüm kurgu yükü **altyazıda**. Görüntü ham.
 | Altyazı satır 1 | y 822–849 px (%64.2–66.3) |
 | Altyazı satır 2 | y 883–910 px (%69.0–71.1) |
 | Satır aralığı (üst-üst) | 61 px @720 = **92 px @1080** |
-| Yatay hizalama | Metin bloğu **ortalı**; chip metinden biraz daha solda (x45 vs x63) |
+| Yatay hizalama | Metin bloğu **ortalı**; chip 1. satırın sol kenarını takip eder |
 | Maksimum satır | 2 |
 
 1080 × 1920'ye çevirmek için tüm px değerlerini **×1.5** yap.
@@ -132,7 +132,15 @@ Bu ayarlarla 53 ekrandan 51'e düşüldü, iki satırlı ekran sayısı 17'den
 | İçindeki yazı | yük. 19, gen. 144 | Inter ExtraBold **44**, `Outline 5` |
 | Yatay dolgu | sol 16, sağ 17 | `\h` × 3 her iki yana |
 
-**Chip altyazıya yapışık durur.** Referansta chip kutusunun alt kenarı
+**Chip yatayda yazıyla birlikte kayar.** Satırlar ortalı olduğu için
+1. satırın sol kenarı her ekranda değişir; chip de onunla birlikte kayar.
+Ölçüm: kısa satırda chip x146 / yazı x166, uzun satırda chip x44 / yazı x63
+— her ikisinde de chip yazının **19–20 px solunda**. Sabit sol kenara
+koyarsan kısa altyazılarda etiket metinden kopuk kalır.
+
+Formül: `chip_x = 540 − (1._satır_genişliği / 2) − 24` @1080.
+
+**Chip altyazıya dikeyde de yapışık durur.** Referansta chip kutusunun alt kenarı
 (y805) ile altyazı kutusunun üst kenarı (y806) arasında **0 piksel** var —
 iki kutu tek parça gibi okunuyor. Arada boşluk bırakmak formatı bozar.
 
@@ -155,8 +163,15 @@ renklidir — sweep-and-stay değil.
 
 | Konuşmacı | Chip rengi | Vurgu rengi | Chip yazı |
 |---|---|---|---|
-| Volkan Usta (host) | `#F5AF0E` amber | `#F5AF0E` | siyah |
-| Misafir (ör. Taylan Bey) | `#E75F5A` mercan/kırmızı | `#E75F5A` | beyaz |
+| Host (Volkan Usta) | `#F5AF0E` amber | `#F5AF0E` | siyah |
+| 1. misafir | `#E75F5A` mercan | `#E75F5A` | beyaz |
+| 3. konuşmacı gerekirse | `#2D96DC` mavi | `#2D96DC` | beyaz |
+
+**ASS renk tuzağı:** ASS renk formatı `&HBBGGRR` — RGB'nin tersi. Chip
+rengini stil satırına, vurgu rengini `\c` etiketine yazarken ikisi de aynı
+BGR dizilimiyle girilmeli. Ters yazılırsa chip bir renk, vurgu başka renk
+çıkar ve fark ilk bakışta gözden kaçar (`#8B4FD6` lila ↔ `#D64F8B` pembe
+gibi).
 
 Chip: küçük punto (~22 px @720w), bold, yuvarlatılmış köşe, altyazının
 hemen üstünde.

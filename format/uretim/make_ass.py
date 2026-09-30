@@ -31,12 +31,13 @@ MIN_CHUNK_DUR = 0.45
 # altyazıları otomatik aşağı itiyor ve MarginV'yi eziyor. \pos bunu kapatır.
 SATIR1_Y = 1223            # ilk satırın üst noktası @1080 (Alignment 8)
 SATIR_ADIM = 88            # satır aralığı @1080 (referans: 55px @720)
-CHIP_X, CHIP_Y = 72, 1162  # chip sol-üst @1080; alt kenarı altyazı kutusuna yapışık (boşluk 0)
+CHIP_OFS = 24              # chip sol kenarı, 1. satır metninin solundan bu kadar dışarıda
+CHIP_Y = 1162              # chip üst noktası @1080; alt kenarı altyazı kutusuna yapışık
 
 SPEAKERS = {
     "host":    {"style": "ChipHost",    "hi": "&H0EAFF5&", "label": "Volkan Usta"},
     "misafir1":{"style": "ChipMisafir", "hi": "&H5A5FE7&", "label": "Gizem Hanım"},
-    "misafir2":{"style": "ChipMisafir2","hi": "&H8B4FD6&", "label": "Görkem Bey"},
+    "misafir2":{"style": "ChipMisafir2","hi": "&HDC962D&", "label": "Görkem Bey"},
 }
 
 font = ImageFont.truetype(FONT, OLCU_SIZE)
@@ -148,8 +149,12 @@ def main(tr_path, sp_path, out_path):
         sp = SPEAKERS[ch[0]["_who"]]
         # \h = ASS sert boşluk; chip'in yatay dolgusunu büyütmek için
         etiket = CHIP_PAD + sp["label"] + CHIP_PAD
+        # Chip yazıyla birlikte kayar: sol kenarı 1. satırın sol kenarına hizalı.
+        # Satırlar ortalı olduğu için chip'in x'i her ekranda yeniden hesaplanır.
+        ilk_satir = " ".join(ch[i]["w"] for i in lines[0])
+        chip_x = round(540 - px(ilk_satir) / 2 - CHIP_OFS)
         ev.append(f"Dialogue: 0,{ts(start)},{ts(end)},{sp['style']},,0,0,0,,"
-                  f"{{\\pos({CHIP_X},{CHIP_Y})}}{etiket}")
+                  f"{{\\pos({chip_x},{CHIP_Y})}}{etiket}")
         for i, w in enumerate(ch):
             a = w["s"] if i else start
             b = ch[i + 1]["s"] if i + 1 < len(ch) else end
