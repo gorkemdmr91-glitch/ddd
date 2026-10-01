@@ -9,7 +9,10 @@ açıldığında önceki sohbetler hatırlanmaz; buradaki dosyalar hatırlanır.
 |---|---|
 | `format/mistanbul-roportaj-format.md` | Mistanbul Döner müşteri röportajı video formatı — tam spesifikasyon |
 | `format/altyazi-stili.ass` | Formatın altyazı stili (ffmpeg/libass ile render için, test edildi) |
+| `format/kapak-formati.md` | Kapak görseli formatı (4:5) — ölçüler, renkler, yazım kuralları |
+| `format/uretim/` | Üretim hattı: transkript, altyazı, render, kapak |
 | `format/reference/` | Referans videodan çıkarılmış kareler ve altyazı detayları |
+| `kapak/` | Üretilmiş kapak görselleri |
 
 ## Yeni video edit isteğinde
 

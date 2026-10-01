@@ -1,0 +1,13 @@
+[
+ {"video":"dl/ham.mp4","saniye":43.2,"kirpma_y":420,"kare":"kapak/f_a.png",
+  "satirlar":["«Herkesin denemesini","tavsiye ediyorum.»"],"vurgu_satir":1,
+  "byline":"Gizem Hanım — tadım misafirimiz","cikti":"kapak/A-gizem-tavsiye.jpg"},
+
+ {"video":"dl/ham.mp4","saniye":33.8,"kirpma_y":420,"kare":"kapak/f_b.png",
+  "satirlar":["«Burada çok farklı","bir tat vardı.»"],"vurgu_satir":1,
+  "byline":"Gizem Hanım — tadım misafirimiz","cikti":"kapak/B-gizem-farkli-tat.jpg"},
+
+ {"video":"dl/ham.mp4","saniye":63.5,"kirpma_y":420,"kare":"kapak/f_c.png",
+  "satirlar":["«Bir tık daha üstünü","yapmaya çalışmışsın","ve başarmışsın.»"],"vurgu_satir":2,
+  "byline":"Görkem Bey — tadım misafirimiz","cikti":"kapak/C-gorkem-basarmissin.jpg"}
+]
