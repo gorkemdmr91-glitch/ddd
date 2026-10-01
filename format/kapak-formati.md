@@ -62,6 +62,13 @@ Amber, videodaki host chip rengiyle aynı — kapak ve video aynı sistemden
 - Kırpma penceresi `kirpma_y` ile ayarlanır; 420 bu çekimde yüzleri üst
   üçte bire, metni masa bölgesine getiriyor
 
+## Bu videoda seçilen
+
+**C — «Bir tık daha üstünü / yapmaya çalışmışsın / ve başarmışsın.»**
+Görkem Bey, kare 63.5 sn. Dosya: `mistanbul-gizem-gorkem-KAPAK.jpg`
+
+Üç satırlı alıntı, punto 87'den 84'e otomatik kısıldı.
+
 ## Kullanım
 
 ```bash
